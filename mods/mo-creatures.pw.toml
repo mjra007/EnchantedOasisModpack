@@ -1,0 +1,13 @@
+name = "Mo' Creatures"
+filename = "DrZharks MoCreatures Mod-12.0.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e84e919972e215cbe9ac49b7a743fcdd792c7600"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2628698
+project-id = 229260

@@ -1,0 +1,13 @@
+name = "Server Redirect"
+filename = "ServerRedirect-ForgeMC12-1.4.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9256263bee2581fa084fbe40d9dee49e0a75f3f0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3772540
+project-id = 295232

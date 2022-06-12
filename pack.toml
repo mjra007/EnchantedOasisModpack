@@ -1,0 +1,13 @@
+name = "EO oFICCIAL"
+author = "mjra007"
+version = "3.1.8"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "b9736cef08ed9544fbed54abc19721835b89639baace9b7c1a292a3faf5c2e33"
+
+[versions]
+forge = "14.23.5.2855"
+minecraft = "1.12.2"

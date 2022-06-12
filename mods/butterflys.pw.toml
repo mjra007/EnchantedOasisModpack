@@ -1,0 +1,13 @@
+name = "Butterflys"
+filename = "butterflies-1.12.2-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e5ee8521cd03571dad021c63d8e4e2a28d3c6e04"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2892265
+project-id = 322661

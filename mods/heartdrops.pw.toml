@@ -1,0 +1,13 @@
+name = "HeartDrops"
+filename = "heartdrops-1.12.2-3.0.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "582937d1e9bcbcbcc32309baf56343e42ad9bc5b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2960608
+project-id = 282116

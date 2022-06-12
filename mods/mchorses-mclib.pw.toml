@@ -1,0 +1,13 @@
+name = "McHorse's McLib"
+filename = "mclib-2.4-1.12.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cd1903a1806fa5615a86ee0953fd8d44a0973726"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3778535
+project-id = 304750

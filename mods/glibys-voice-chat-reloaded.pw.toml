@@ -1,0 +1,13 @@
+name = "Gliby's Voice Chat Reloaded"
+filename = "Voice Chat Reloaded-1.2.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b58189e1030ab7231e0984988a552f25a2280dc0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3222659
+project-id = 296045

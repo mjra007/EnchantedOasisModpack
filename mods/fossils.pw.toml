@@ -1,0 +1,13 @@
+name = "Fossils and Archeology Revival"
+filename = "fossilsarcheology-8.0.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2af0ada935f8e75e1ba187e27540210920f9e456"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3168678
+project-id = 223908

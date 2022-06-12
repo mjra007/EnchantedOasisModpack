@@ -1,0 +1,13 @@
+name = "The Aether II"
+filename = "aether_ii-1.12.2-0.3.0+build411-universal.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "48cdd5479d0f0cf0858e5deeeafe689e070679ee"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2960610
+project-id = 223796

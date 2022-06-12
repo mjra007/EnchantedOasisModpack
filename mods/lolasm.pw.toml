@@ -1,0 +1,13 @@
+name = "CensoredASM"
+filename = "loliasm-5.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bc570ca52517131d7369d6cdb9ee2df93daea4a9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3801417
+project-id = 460609
