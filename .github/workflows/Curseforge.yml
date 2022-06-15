@@ -39,4 +39,5 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
-          name: "${{ steps.packName.outputs.value }}-${{ steps.modpackVersion.outputs.value }}.zip"
+          name: Curseforge Modpack file
+          path: "${{ steps.packName.outputs.value }}-${{ steps.modpackVersion.outputs.value }}.zip"
