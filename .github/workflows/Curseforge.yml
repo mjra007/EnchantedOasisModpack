@@ -55,8 +55,6 @@ jobs:
         with:
           draft: false
           prerelease: false
-          release_name: "${{ steps.packName.outputs.value }} ${{ steps.version.outputs.value }}"
-          tag_name: ${{ github.ref }}
-          body_path: CHANGELOG.md
+          release_name: "${{ steps.packName.outputs.value }}-${{ steps.version.outputs.value }}.zip"
         env:
           GITHUB_TOKEN: ${{ github.token }}
