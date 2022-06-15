@@ -16,7 +16,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
+  buildCurseForge:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -49,9 +49,42 @@ jobs:
         with: 
           file: 'pack.toml'
           field: 'name' 
-          
-      - name: Upload artifact
-        uses: actions/upload-artifact@v3
+      
+      - name: Rename file 
+        run: mv "${{ steps.packName.outputs.value }}-${{ steps.modpackVersion.outputs.value }}.zip" "${{ steps.packName.outputs.value }}CurseForge-${{ steps.modpackVersion.outputs.value }}.zip"
+
+#       - name: Upload artifact
+#         uses: actions/upload-artifact@v3
+#         with:
+#           name: "${{ steps.packName.outputs.value }}CurseForge-${{ steps.modpackVersion.outputs.value }}.zip"
+#           path: "${{ steps.packName.outputs.value }}-${{ steps.modpackVersion.outputs.value }}.zip"
+  release: 
+    runs-on: ubuntu-latest  
+    steps:
+      - name: Create Release
+        uses: actions/create-release@v1
+        id: create_release
         with:
-          name: "${{ steps.packName.outputs.value }}CurseForge-${{ steps.modpackVersion.outputs.value }}.zip"
-          path: "${{ steps.packName.outputs.value }}-${{ steps.modpackVersion.outputs.value }}.zip"
+          draft: false
+          prerelease: false
+          release_name: "${{ steps.packName.outputs.value }}-${{ steps.modpackVersion.outputs.value }}"
+          tag_name: modpacks
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      
+      - name: Upload Curseforge artifact
+        uses: actions/upload-release-asset@v1.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: "${{ steps.packName.outputs.value }}-${{ steps.modpackVersion.outputs.value }}.zip"
+          asset_name: "${{ steps.packName.outputs.value }}-${{ steps.modpackVersion.outputs.value }}.zip"
+          asset_content_type: application/zip
+   
+      - name: Publish release
+        uses: eregon/publish-release@v1
+        env:
+         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          release_id: ${{ steps.create_release.outputs.id }}
