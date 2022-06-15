@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Curseforge Modpack build
 
 # Controls when the workflow will run
 on:
@@ -34,44 +34,9 @@ jobs:
         run: go install github.com/packwiz/packwiz@latest
         
       - name: Build curseforge
-        run: packwiz curseforge export
-         
-      - name: version
-        id: modpackVersion
-        uses: SebRollen/toml-action@v1.0.0
-        with: 
-          file: 'pack.toml'
-          field: 'version'
-          
-      - name: packName 
-        id: packName
-        uses: SebRollen/toml-action@v1.0.0
-        with: 
-          file: 'pack.toml'
-          field: 'name'    
-          
-      - name: release
-        uses: actions/create-release@v1
-        id: create_release
-        with:
-          draft: false
-          prerelease: false
-          release_name: "${{ steps.packName.outputs.value }}-${{ steps.modpackVersion.outputs.value }}.zip"
-          tag_name: curseforge
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
+        run: packwiz curseforge export 
       
-      - uses: actions/upload-release-asset@v1.0.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
         with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: "${{ steps.packName.outputs.value }}-${{ steps.modpackVersion.outputs.value }}.zip"
-          asset_name: "${{ steps.packName.outputs.value }}-${{ steps.modpackVersion.outputs.value }}.zip"
-          asset_content_type: application/zip
-   
-      - uses: eregon/publish-release@v1
-        env:
-         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          release_id: ${{ steps.create_release.outputs.id }}
+          name: "${{ steps.packName.outputs.value }}-${{ steps.modpackVersion.outputs.value }}.zip"
