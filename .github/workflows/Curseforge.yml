@@ -36,9 +36,18 @@ jobs:
       - name: Build curseforge
         run: packwiz curseforge export
          
-      - name: Get File Name
-        run: |
-          echo "${fromJson("pack.toml").name}-{fromJson("pack.toml").version}.zip}"
+      - name: version
+        id: modpackVersion
+        uses: SebRollen/toml-action@v1.0.0
+        with: 
+          file: 'pack.toml'
+          field: 'version'
+          
+      - name: packName 
+        uses: SebRollen/toml-action@v1.0.0
+        with: 
+          file: 'pack.toml'
+          field: 'name'    
           
       - name: release
         uses: actions/create-release@v1
@@ -46,7 +55,7 @@ jobs:
         with:
           draft: false
           prerelease: false
-          release_name: ${{ steps.version.outputs.version }}
+          release_name: "${{ steps.packName.outputs.value }} ${{ steps.version.outputs.value }}"
           tag_name: ${{ github.ref }}
           body_path: CHANGELOG.md
         env:
