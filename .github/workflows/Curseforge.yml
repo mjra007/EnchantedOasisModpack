@@ -37,7 +37,7 @@ jobs:
         run: packwiz curseforge export
       
       - name: version
-        run: echo "::set-output name=version::$(./bin/EnchantedOasis- --version)"
+        run: echo "::set-output name=version::$(./EnchantedOasis- --version)"
         id: version
         
       - name: release
