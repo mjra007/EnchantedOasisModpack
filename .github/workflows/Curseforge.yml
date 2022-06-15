@@ -44,6 +44,7 @@ jobs:
           field: 'version'
           
       - name: packName 
+        id: packName
         uses: SebRollen/toml-action@v1.0.0
         with: 
           file: 'pack.toml'
