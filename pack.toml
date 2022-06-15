@@ -1,12 +1,12 @@
-name = "EO oFICCIAL"
+name = "EnchantedOasis"
 author = "mjra007"
-version = "3.1.8"
+version = "1.0.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "b9736cef08ed9544fbed54abc19721835b89639baace9b7c1a292a3faf5c2e33"
+hash = "2067f11f975ed20901077fc049b0b533c0962c7fac2fe5dfcf88a134be8de107"
 
 [versions]
 forge = "14.23.5.2855"
