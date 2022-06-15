@@ -35,7 +35,20 @@ jobs:
         
       - name: Build curseforge
         run: packwiz curseforge export 
-      
+               
+      - name: version
+        id: modpackVersion
+        uses: SebRollen/toml-action@v1.0.0
+        with: 
+          file: 'pack.toml'
+          field: 'version'
+          
+      - name: packName 
+        uses: SebRollen/toml-action@v1.0.0
+        with: 
+          file: 'pack.toml'
+          field: 'name' 
+          
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
