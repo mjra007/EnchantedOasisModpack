@@ -33,17 +33,13 @@ jobs:
       - name: Install packwiz
         run: go install github.com/packwiz/packwiz@latest
         
+      - name: Build curseforge
+        run: packwiz curseforge export
+         
       - name: Get File Name
         run: |
           echo "${fromJson("pack.toml").name}-{fromJson("pack.toml").version}.zip}"
           
-      - name: Build curseforge
-        run: packwiz curseforge export
-      
-      - name: version
-        run: echo "::set-output name=version::$(./EnchantedOasis- --version)"
-        id: version
-        
       - name: release
         uses: actions/create-release@v1
         id: create_release
