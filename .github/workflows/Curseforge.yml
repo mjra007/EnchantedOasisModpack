@@ -56,5 +56,6 @@ jobs:
           draft: false
           prerelease: false
           release_name: "${{ steps.packName.outputs.value }}-${{ steps.version.outputs.value }}.zip"
+          tag_name: curseforge
         env:
           GITHUB_TOKEN: ${{ github.token }}
