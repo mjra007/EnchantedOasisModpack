@@ -6,9 +6,9 @@ name: Curseforge Modpack build
 on:
   # Triggers the workflow on push or pull request events but only for the "master" branch
   push:
-    branches: [ "master" ]
+    branches: [ "release" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "release" ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -36,14 +36,14 @@ jobs:
       - name: Build curseforge
         run: packwiz curseforge export 
                
-      - name: version
+      - name: Read version
         id: modpackVersion
         uses: SebRollen/toml-action@v1.0.0
         with: 
           file: 'pack.toml'
           field: 'version'
           
-      - name: packName 
+      - name: Read pack name 
         id: packName
         uses: SebRollen/toml-action@v1.0.0
         with: 
@@ -53,5 +53,5 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
-          name: Curseforge Modpack file
+          name: "${{ steps.packName.outputs.value }}CurseForge-${{ steps.modpackVersion.outputs.value }}.zip"
           path: "${{ steps.packName.outputs.value }}-${{ steps.modpackVersion.outputs.value }}.zip"
