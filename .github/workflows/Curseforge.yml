@@ -45,13 +45,13 @@ jobs:
 
       - name: Download TechnicSolder packager
         run: | 
-          wget https://github.com/mjra007/TechnicSolderPackager/releases/download/ver-aa59a4aec2a18757c93b2eb61f6526a1382a49bd/technicsolderpackager.zip -P ./
+          wget https://github.com/mjra007/TechnicSolderPackager/releases/download/ver-3a2e7549f530d9f20c60213e090f13aedd66748c/technicsolderpackager.zip -P ./
           unzip ./technicsolderpackager.zip
           
       - name: Execute Downloader
         run: dotnet TechnicSolderPackager.dll downloader ${{secrets.CURSEFORGEAPIKEY}}
       
-      - name: Execute Packager 3.0.0-1.12.2 EnchantedOasis
+      - name: Execute Packager
         run: dotnet TechnicSolderPackager.dll downloader ${{ steps.packName.outputs.value }}TechnicSolder
       
       - name: Create Release
@@ -75,7 +75,7 @@ jobs:
           asset_name: "${{ steps.packName.outputs.value }}CurseForge-${{ steps.modpackVersion.outputs.value }}.zip"
           asset_content_type: application/zip
       
-      - name: Upload Curseforge artifact
+      - name: Upload TechnicSolder artifact
         uses: actions/upload-release-asset@v1.0.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
