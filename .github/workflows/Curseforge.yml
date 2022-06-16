@@ -43,27 +43,17 @@ jobs:
       - name: Rename file 
         run: mv "${{ steps.packName.outputs.value }}-${{ steps.modpackVersion.outputs.value }}.zip" "${{ steps.packName.outputs.value }}CurseForge-${{ steps.modpackVersion.outputs.value }}.zip"
 
-      - name: Download curseme scripts
-        run: | 
-          wget https://github.com/mjra007/curseme/releases/download/launcher-0.1/parsePack.zip
-          unzip parsePack.zip
-          chmod 777 ./getToken.sh
-          chmod 777 ./parsePack.sh
-          
-      - run: ./getToken.sh
-      
-      - name: Download mod jars
-        run: ./parsePack.sh "${{ steps.packName.outputs.value }}CurseForge-${{ steps.modpackVersion.outputs.value }}.zip"
-      
       - name: Download TechnicSolder packager
         run: | 
-          wget https://github.com/mjra007/TechnicSolderPackager/releases/download/ver-afcd3836d4f45de0c547354e21b2f044c6c8d5d2/technicsolderpackager.zip -P ./packwrk/mods
-          unzip ./packwrk/mods/technicsolderpackager.zip
+          wget https://github.com/mjra007/TechnicSolderPackager/releases/download/ver-afcd3836d4f45de0c547354e21b2f044c6c8d5d2/technicsolderpackager.zip -P ./
+          unzip ./technicsolderpackager.zip
           
-      - name: Execute technicsolder packager
-        run: | 
-          dotnet ./packwrk/mods/TechnicSolderPackager.dll
-
+      - name: Execute Downloader
+        run: dotnet TechnicSolderPackager.dll downloader ${{secrets.CURSEFORGEAPIKEY}}
+      
+      - name: Execute Packager 3.0.0-1.12.2 EnchantedOasis
+        run: dotnet TechnicSolderPackager.dll downloader ${{ steps.packName.outputs.value }}TechnicSolder
+      
       - name: Create Release
         uses: actions/create-release@v1
         id: create_release
@@ -84,7 +74,17 @@ jobs:
           asset_path: "${{ steps.packName.outputs.value }}-${{ steps.modpackVersion.outputs.value }}.zip"
           asset_name: "${{ steps.packName.outputs.value }}-${{ steps.modpackVersion.outputs.value }}.zip"
           asset_content_type: application/zip
-   
+      
+      - name: Upload Curseforge artifact
+        uses: actions/upload-release-asset@v1.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: "${{ steps.packName.outputs.value }}TechnicSolder-${{ steps.modpackVersion.outputs.value }}.zip"
+          asset_name: "${{ steps.packName.outputs.value }}TechnicSolder-${{ steps.modpackVersion.outputs.value }}.zip"
+          asset_content_type: application/zip
+      
       - name: Publish release
         uses: eregon/publish-release@v1
         env:
