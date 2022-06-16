@@ -91,3 +91,12 @@ jobs:
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           release_id: ${{ steps.create_release.outputs.id }}
+     
+      - name: Upload to CurseForge 
+        with:
+          token: ${{secrets.CURSEFORGEMODPACKKEY}}
+          project_id: 287738
+          game_endpoint: minecraft 
+          file_path: ${{ steps.packName.outputs.value }}CurseForge-${{ steps.modpackVersion.outputs.value }}.zip  
+          game_versions: 6756 
+          release_type: release
