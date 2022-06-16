@@ -51,6 +51,7 @@ jobs:
         with: 
           repository: mjra007/curseme@master
           branch: main
+          token: ${{ github.token }}
           
       - run: ./getToken.sh
       
