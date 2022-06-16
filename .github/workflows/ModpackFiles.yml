@@ -1,4 +1,4 @@
-name: Curseforge Modpack build
+name: Modpack Builds
 
 on:
   push:
