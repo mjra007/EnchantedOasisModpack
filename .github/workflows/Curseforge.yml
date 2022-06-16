@@ -93,6 +93,7 @@ jobs:
           release_id: ${{ steps.create_release.outputs.id }}
      
       - name: Upload to CurseForge 
+        uses: mjra007/EnchantedOasisModpack@latest
         with:
           token: ${{secrets.CURSEFORGEMODPACKKEY}}
           project_id: 287738
