@@ -48,10 +48,10 @@ jobs:
           wget https://github.com/mjra007/curseme/archive/refs/heads/meow.zip
           unzip meow.zip
           
-      - run: ./getToken.sh
+      - run: ./curseme-meow/getToken.sh
       
       - name: Download mod jars
-        run: ./parsePack.sh "${{ steps.packName.outputs.value }}-${{ steps.modpackVersion.outputs.value }}.zip" "${{ steps.packName.outputs.value }}CurseForge-${{ steps.modpackVersion.outputs.value }}.zip"
+        run: ./curseme-meow/parsePack.sh "${{ steps.packName.outputs.value }}-${{ steps.modpackVersion.outputs.value }}.zip" "${{ steps.packName.outputs.value }}CurseForge-${{ steps.modpackVersion.outputs.value }}.zip"
       
       - name: Download TechnicSolder packager
         run: | 
