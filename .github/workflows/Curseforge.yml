@@ -59,7 +59,7 @@ jobs:
       - name: Download curseme scripts
         uses: actions/checkout@v3 
         with: 
-          repository: mjra007/curseme
+          repository: mjra007/curseme@master
           
       - run: ./getToken.sh
       
