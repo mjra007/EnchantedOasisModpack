@@ -42,10 +42,7 @@ jobs:
       
       - name: Rename file 
         run: mv "${{ steps.packName.outputs.value }}-${{ steps.modpackVersion.outputs.value }}.zip" "${{ steps.packName.outputs.value }}CurseForge-${{ steps.modpackVersion.outputs.value }}.zip"
-  
-  buildTechnicSolder:
-    runs-on: ubuntu-latest
-    steps:
+
       - name: Download curseme scripts
         run: | 
           wget https://github.com/mjra007/curseme/archive/refs/heads/meow.zip
@@ -64,9 +61,7 @@ jobs:
       - name: Execute technicsolder packager
         run: | 
           dotnet ./packwrk/mods/TechnicSolderPackager.dll
-  release: 
-    runs-on: ubuntu-latest  
-    steps:
+
       - name: Create Release
         uses: actions/create-release@v1
         id: create_release
