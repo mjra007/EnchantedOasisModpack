@@ -7,13 +7,12 @@ on:
     branches: [ "release" ]
 
   workflow_dispatch:
-jobs:
-  buildCurseForge:
+jobs: 
+  setupEnvironment:
     runs-on: ubuntu-latest
-
+    
     steps:
-      - uses: actions/checkout@v3 
-      
+      - uses: actions/checkout@v3  
       - name: Setup Go environment
         uses: actions/setup-go@v3.2.0
         with: 
@@ -23,6 +22,10 @@ jobs:
       - name: Install packwiz
         run: go install github.com/packwiz/packwiz@latest
         
+  buildCurseForgeModpackFile:
+    needs: setupEnvironment
+    runs-on: ubuntu-latest
+    steps:
       - name: Build curseforge
         run: packwiz curseforge export 
                
@@ -43,6 +46,10 @@ jobs:
       - name: Rename file 
         run: mv "${{ steps.packName.outputs.value }}-${{ steps.modpackVersion.outputs.value }}.zip" "${{ steps.packName.outputs.value }}CurseForge-${{ steps.modpackVersion.outputs.value }}.zip"
 
+  buildTechnicSolderModpackFiles:
+    needs: setupEnvironment
+    runs-on: ubuntu-latest
+    steps: 
       - name: Download TechnicSolder packager
         run: | 
           wget https://github.com/mjra007/TechnicSolderPackager/releases/download/ver-5319cc593d8d227e9aff18d4b2676389d32090ea/technicsolderpackager.zip -P ./
@@ -53,7 +60,11 @@ jobs:
       
       - name: Execute Packager
         run: dotnet TechnicSolderPackager.dll packager ${{ steps.modpackVersion.outputs.value }} ${{ steps.packName.outputs.value }}TechnicSolder
-      
+  
+  createRelase:
+    needs: [setupEnvironment, buildTechnicSolderModpackFiles, buildCurseForgeModpackFile]
+    runs-on: ubuntu-latest
+    steps:
       - name: Create Release
         uses: actions/create-release@v1
         id: create_release
