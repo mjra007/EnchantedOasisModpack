@@ -47,11 +47,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Download curseme scripts
-        uses: actions/checkout@v3 
-        with: 
-          repository: mjra007/curseme@master
-          branch: main
-          token: ${{ github.token }}
+        run: | 
+          wget https://github.com/mjra007/curseme/archive/refs/heads/meow.zip
+          unzip meow.zip
           
       - run: ./getToken.sh
       
@@ -59,22 +57,13 @@ jobs:
         run: ./parsePack.sh "${{ steps.packName.outputs.value }}-${{ steps.modpackVersion.outputs.value }}.zip" "${{ steps.packName.outputs.value }}CurseForge-${{ steps.modpackVersion.outputs.value }}.zip"
       
       - name: Download TechnicSolder packager
-        uses: actions/checkout@v3
-        with:
-          repository: TechnicSolderPackager
-          path: ./packwrk/mods
-      
-      - name: Setup MSBuild
-        uses: microsoft/setup-msbuild@v1.1
-        
-      - name : Build TechnicSolderPackager
-        run: "msbuild ./packwrk/mods/TechnicSolderPackager.csproj /p:Configuration=Release /p:Platform=x86 /p:RuntimeIdentifier=linux-x64"
-        
-      - name: Execute TechnicSolder Packager
-        run: ./packwrk/mods/TechnicSolderPackager
-      
-      
-      
+        run: | 
+          wget https://github.com/mjra007/TechnicSolderPackager/releases/download/ver-afcd3836d4f45de0c547354e21b2f044c6c8d5d2/technicsolderpackager.zip -P ./packwrk/mods
+          unzip ./packwrk/mods/technicsolderpackager.zip
+          
+      - name: Execute technicsolder packager
+        run: | 
+          dotnet ./packwrk/mods/TechnicSolderPackager.dll
   release: 
     runs-on: ubuntu-latest  
     steps:
