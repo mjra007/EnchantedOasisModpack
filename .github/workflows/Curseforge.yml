@@ -45,13 +45,13 @@ jobs:
 
       - name: Download curseme scripts
         run: | 
-          wget https://github.com/mjra007/curseme/archive/refs/heads/meow.zip
-          unzip meow.zip
+          wget https://github.com/mjra007/curseme/releases/download/launcher-0.1/parsePack.zip
+          unzip parsePack.zip
           
-      - run: ./curseme-meow/getToken.sh
+      - run: ./getToken.sh
       
       - name: Download mod jars
-        run: ./curseme-meow/parsePack.sh "${{ steps.packName.outputs.value }}-${{ steps.modpackVersion.outputs.value }}.zip" "${{ steps.packName.outputs.value }}CurseForge-${{ steps.modpackVersion.outputs.value }}.zip"
+        run: ./parsePack.sh "${{ steps.packName.outputs.value }}CurseForge-${{ steps.modpackVersion.outputs.value }}.zip"
       
       - name: Download TechnicSolder packager
         run: | 
