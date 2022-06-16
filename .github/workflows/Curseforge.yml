@@ -47,7 +47,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Download curseme scripts
-        run: git clone git@github.com:mjra007/TechnicSolderPackager.git
+        uses: actions/checkout@v3 
+        with: 
+          repository: mjra007/curseme
+          branch: main
+          path: ./
           
       - run: ./getToken.sh
       
