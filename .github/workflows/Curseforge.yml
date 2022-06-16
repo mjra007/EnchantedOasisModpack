@@ -45,7 +45,7 @@ jobs:
 
       - name: Download TechnicSolder packager
         run: | 
-          wget https://github.com/mjra007/TechnicSolderPackager/releases/download/ver-afcd3836d4f45de0c547354e21b2f044c6c8d5d2/technicsolderpackager.zip -P ./
+          wget https://github.com/mjra007/TechnicSolderPackager/releases/download/ver-1ba16628b6e6b1184598787242774c3b8d80e0a8/technicsolderpackager.zip -P ./
           unzip ./technicsolderpackager.zip
           
       - name: Execute Downloader
@@ -71,8 +71,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: "${{ steps.packName.outputs.value }}-${{ steps.modpackVersion.outputs.value }}.zip"
-          asset_name: "${{ steps.packName.outputs.value }}-${{ steps.modpackVersion.outputs.value }}.zip"
+          asset_path: "${{ steps.packName.outputs.value }}CurseForge-${{ steps.modpackVersion.outputs.value }}.zip"
+          asset_name: "${{ steps.packName.outputs.value }}CurseForge-${{ steps.modpackVersion.outputs.value }}.zip"
           asset_content_type: application/zip
       
       - name: Upload Curseforge artifact
