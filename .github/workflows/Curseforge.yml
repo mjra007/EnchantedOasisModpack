@@ -61,7 +61,7 @@ jobs:
           draft: false
           prerelease: false
           release_name: "${{ steps.packName.outputs.value }}-${{ steps.modpackVersion.outputs.value }}"
-          tag_name: modpacks
+          tag_name: ${{ steps.modpackVersion.outputs.value }}-${{ github.sha }}
         env:
           GITHUB_TOKEN: ${{ github.token }}
       
