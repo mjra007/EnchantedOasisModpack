@@ -47,6 +47,8 @@ jobs:
         run: | 
           wget https://github.com/mjra007/curseme/releases/download/launcher-0.1/parsePack.zip
           unzip parsePack.zip
+          chmod 777 ./getToken.sh
+          chmod 777 ./parsePack.sh
           
       - run: ./getToken.sh
       
