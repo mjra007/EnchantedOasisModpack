@@ -52,7 +52,7 @@ jobs:
         run: dotnet TechnicSolderPackager.dll downloader ${{secrets.CURSEFORGEAPIKEY}}
       
       - name: Execute Packager
-        run: dotnet TechnicSolderPackager.dll downloader ${{ steps.packName.outputs.value }}TechnicSolder
+        run: dotnet TechnicSolderPackager.dll packager ${{ steps.modpackVersion.outputs.value }} ${{ steps.packName.outputs.value }}TechnicSolder
       
       - name: Create Release
         uses: actions/create-release@v1
