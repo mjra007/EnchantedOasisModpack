@@ -97,6 +97,12 @@ jobs:
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           release_id: ${{ steps.create_release.outputs.id }}
+          
+      - name: Get Current Release
+        id: get_current_release
+        uses: joutvhu/get-release@v1 
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                
       - name: Unpack mods for solder
         uses: appleboy/ssh-action@master
@@ -106,7 +112,7 @@ jobs:
           password: ${{ secrets.PASSWORD }} 
           script: |
              cd ${{secrets.MODSPATH}}
-             wget ${{ steps.create_release.outputs.upload_url }}/${{ steps.packName.outputs.value }}TechnicSolder-${{ steps.modpackVersion.outputs.value }}.zip -P ./
+             wget ${{ steps.get_current_release.outputs.upload_url }}/${{ steps.packName.outputs.value }}TechnicSolder-${{ steps.modpackVersion.outputs.value }}.zip -P ./
              dotnet TechnicSolderPackager.dll unpacker "${{ steps.packName.outputs.value }}TechnicSolder-${{ steps.modpackVersion.outputs.value }}.zip"
 
       - name: Register Solder mods
