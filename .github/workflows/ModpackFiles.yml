@@ -59,19 +59,7 @@ jobs:
         
       - name: setup-chromedriver 
         uses: nanasess/setup-chromedriver@v1.0.7
-          
-      - name: Unpack mods for solder
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.SERVERIP }}
-          username: ${{ secrets.USER }}
-          password: ${{ secrets.PASSWORD }} 
-          script: |
-             dotnet TechnicSolderPackager.dll unpacker "${{ steps.packName.outputs.value }}TechnicSolder-${{ steps.modpackVersion.outputs.value }}.zip"
 
-      - name: Register Solder mods
-        run: dotnet TechnicSolderPackager.dll uploader ${{secrets.SOLDERUSER}} ${{secrets.SOLDERPASSWORD}}
-        
       - name: Create Release
         uses: actions/create-release@v1
         id: create_release
@@ -109,7 +97,21 @@ jobs:
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           release_id: ${{ steps.create_release.outputs.id }}
-     
+               
+      - name: Unpack mods for solder
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SERVERIP }}
+          username: ${{ secrets.USER }}
+          password: ${{ secrets.PASSWORD }} 
+          script: |
+             cd ${{secrets.MODSPATH}}
+             wget ${{ steps.create_release.outputs.upload_url }}/${{ steps.packName.outputs.value }}TechnicSolder-${{ steps.modpackVersion.outputs.value }}.zip -P ./
+             dotnet TechnicSolderPackager.dll unpacker "${{ steps.packName.outputs.value }}TechnicSolder-${{ steps.modpackVersion.outputs.value }}.zip"
+
+      - name: Register Solder mods
+        run: dotnet TechnicSolderPackager.dll uploader ${{secrets.SOLDERUSER}} ${{secrets.SOLDERPASSWORD}}
+        
 #       - name: Upload to CurseForge 
 #         uses: itsmeow/curseforge-upload@v3
 #         with:
