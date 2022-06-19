@@ -101,6 +101,8 @@ jobs:
       - name: Get Current Release
         id: get_current_release
         uses: joutvhu/get-release@v1 
+        with:
+         tag_name: "3.2.1"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                
