@@ -54,6 +54,16 @@ jobs:
       - name: Execute Packager
         run: dotnet TechnicSolderPackager.dll packager ${{ steps.modpackVersion.outputs.value }} ${{ steps.packName.outputs.value }}TechnicSolder
       
+      - name: ssh
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SERVERIP }}
+          username: ${{ secrets.USER }}
+          password: ${{ secrets.PASSWORD }} 
+          script: |
+             dotnet TechnicSolderPackager.dll unpacker "${{ steps.packName.outputs.value }}TechnicSolder-${{ steps.modpackVersion.outputs.value }}.zip"
+             dotnet TechnicSolderPackager.dll uploader ${{secrets.SOLDERUSER}} ${{secrets.SOLDERPASSWORD}}
+             
       - name: Create Release
         uses: actions/create-release@v1
         id: create_release
