@@ -106,7 +106,7 @@ jobs:
           password: ${{ secrets.PASSWORD }} 
           script: |
              cd ${{secrets.MODSPATH}}
-             wget https://github.com/mjra007/TechnicSolderPackager/releases/download/${{ steps.modpackVersion.outputs.value }}/${{ steps.packName.outputs.value }}TechnicSolder-${{ steps.modpackVersion.outputs.value }}.zip -P ./
+             wget https://github.com/mjra007/EnchantedOasisModpack/releases/download/${{ steps.modpackVersion.outputs.value }}/${{ steps.packName.outputs.value }}TechnicSolder-${{ steps.modpackVersion.outputs.value }}.zip -P ./
              dotnet TechnicSolderPackager.dll unpacker "${{ steps.packName.outputs.value }}TechnicSolder-${{ steps.modpackVersion.outputs.value }}.zip"
 
       - name: Register Solder mods
