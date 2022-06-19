@@ -53,7 +53,13 @@ jobs:
       
       - name: Execute Packager
         run: dotnet TechnicSolderPackager.dll packager ${{ steps.modpackVersion.outputs.value }} ${{ steps.packName.outputs.value }}TechnicSolder
-      
+     
+      - name: Setup Chrome 
+        uses: browser-actions/setup-chrome@v0.0.0 
+        
+      - name: setup-chromedriver 
+        uses: nanasess/setup-chromedriver@v1.0.7
+          
       - name: ssh
         uses: appleboy/ssh-action@master
         with:
