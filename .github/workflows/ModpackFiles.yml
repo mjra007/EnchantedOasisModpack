@@ -109,15 +109,11 @@ jobs:
              curl -LO https://github.com/mjra007/EnchantedOasisModpack/releases/download/${{ steps.modpackVersion.outputs.value }}/${{ steps.packName.outputs.value }}TechnicSolder-${{ steps.modpackVersion.outputs.value }}.zip -P ./
              dotnet TechnicSolderPackager.dll unpacker "${{ steps.packName.outputs.value }}TechnicSolder-${{ steps.modpackVersion.outputs.value }}.zip"
        
-      - name: copy file via ssh password
-        uses: appleboy/scp-action@master
-        with:
-          host: ${{ secrets.SERVERIP }}
-          username: ${{ secrets.USER }}
-          password: ${{ secrets.PASSWORD }} 
-          source: ${{secrets.MODSPATH}}+"/NewMods.csv
-          target: "./NewMods.csv"
-          
+      - name: Download NewMods.csv 
+        run: |
+          scp ${{ secrets.USER }}@${{ secrets.SERVERIP }}:${{secrets.MODSPATH}}/NewMods.csv ./
+          ${{ secrets.PASSWORD }} 
+        
       - name: Register Solder mods
         run: dotnet TechnicSolderPackager.dll uploader ${{secrets.SOLDEREMAIL}} ${{secrets.SOLDERPASSWORD}}
         
