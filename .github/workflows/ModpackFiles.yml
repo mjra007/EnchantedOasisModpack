@@ -111,8 +111,10 @@ jobs:
        
       - name: Download NewMods.csv 
         run: |
-          scp ${{ secrets.USER }}@${{ secrets.SERVERIP }}:${{secrets.MODSPATH}}/NewMods.csv ./
+          sftp ${{ secrets.USER }}@${{ secrets.SERVERIP }}
           ${{ secrets.PASSWORD }} 
+          cd ${{secrets.MODSPATH}}
+          get NewMods.csv
         
       - name: Register Solder mods
         run: dotnet TechnicSolderPackager.dll uploader ${{secrets.SOLDEREMAIL}} ${{secrets.SOLDERPASSWORD}}
