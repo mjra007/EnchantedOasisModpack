@@ -110,7 +110,7 @@ jobs:
              dotnet TechnicSolderPackager.dll unpacker "${{ steps.packName.outputs.value }}TechnicSolder-${{ steps.modpackVersion.outputs.value }}.zip"
 
       - name: Register Solder mods
-        run: dotnet TechnicSolderPackager.dll uploader ${{secrets.SOLDERUSER}} ${{secrets.SOLDERPASSWORD}}
+        run: dotnet TechnicSolderPackager.dll uploader ${{secrets.SOLDEREMAIL}} ${{secrets.SOLDERPASSWORD}}
         
 #       - name: Upload to CurseForge 
 #         uses: itsmeow/curseforge-upload@v3
