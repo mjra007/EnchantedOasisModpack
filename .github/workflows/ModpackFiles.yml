@@ -110,12 +110,8 @@ jobs:
              dotnet TechnicSolderPackager.dll unpacker "${{ steps.packName.outputs.value }}TechnicSolder-${{ steps.modpackVersion.outputs.value }}.zip"
        
       - name: Download NewMods.csv 
-        run: |
-          sftp ${{ secrets.USER }}@${{ secrets.SERVERIP }}
-          ${{ secrets.PASSWORD }} 
-          cd ${{secrets.MODSPATH}}
-          get NewMods.csv
-        
+        run: wget http://${{ secrets.SERVERIP }}/mods/NewMods.csv
+ 
       - name: Register Solder mods
         run: dotnet TechnicSolderPackager.dll uploader ${{secrets.SOLDEREMAIL}} ${{secrets.SOLDERPASSWORD}}
         
