@@ -45,7 +45,7 @@ jobs:
 
       - name: Download TechnicSolder packager
         run: | 
-          wget https://github.com/mjra007/TechnicSolderPackager/releases/download/ver-5319cc593d8d227e9aff18d4b2676389d32090ea/technicsolderpackager.zip -P ./
+          wget https://github.com/mjra007/TechnicSolderPackager/releases/download/ver-acf34997916d934e497a12752e008fc6f05a9554/technicsolderpackager.zip -P ./
           unzip ./technicsolderpackager.zip
           
       - name: Execute Downloader
@@ -53,7 +53,13 @@ jobs:
       
       - name: Execute Packager
         run: dotnet TechnicSolderPackager.dll packager ${{ steps.modpackVersion.outputs.value }} ${{ steps.packName.outputs.value }}TechnicSolder
-      
+     
+      - name: Setup Chrome 
+        uses: browser-actions/setup-chrome@v0.0.0 
+        
+      - name: setup-chromedriver 
+        uses: nanasess/setup-chromedriver@v1.0.7
+
       - name: Create Release
         uses: actions/create-release@v1
         id: create_release
@@ -91,13 +97,27 @@ jobs:
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           release_id: ${{ steps.create_release.outputs.id }}
-     
-      - name: Upload to CurseForge 
-        uses: itsmeow/curseforge-upload@v3
+            
+      - name: Unpack mods for solder
+        uses: appleboy/ssh-action@master
         with:
-          token: ${{secrets.CURSEFORGEMODPACKKEY}}
-          project_id: 287738
-          game_endpoint: minecraft 
-          file_path: ${{ steps.packName.outputs.value }}CurseForge-${{ steps.modpackVersion.outputs.value }}.zip  
-          game_versions: 6756 
-          release_type: release
+          host: ${{ secrets.SERVERIP }}
+          username: ${{ secrets.USER }}
+          password: ${{ secrets.PASSWORD }} 
+          script: |
+             cd ${{secrets.MODSPATH}}
+             curl -LO https://github.com/mjra007/EnchantedOasisModpack/releases/download/${{ steps.modpackVersion.outputs.value }}/${{ steps.packName.outputs.value }}TechnicSolder-${{ steps.modpackVersion.outputs.value }}.zip -P ./
+             dotnet TechnicSolderPackager.dll unpacker "${{ steps.packName.outputs.value }}TechnicSolder-${{ steps.modpackVersion.outputs.value }}.zip"
+
+      - name: Register Solder mods
+        run: dotnet TechnicSolderPackager.dll uploader ${{secrets.SOLDERUSER}} ${{secrets.SOLDERPASSWORD}}
+        
+#       - name: Upload to CurseForge 
+#         uses: itsmeow/curseforge-upload@v3
+#         with:
+#           token: ${{secrets.CURSEFORGEMODPACKKEY}}
+#           project_id: 287738
+#           game_endpoint: minecraft 
+#           file_path: ${{ steps.packName.outputs.value }}CurseForge-${{ steps.modpackVersion.outputs.value }}.zip  
+#           game_versions: 6756 
+#           release_type: release
