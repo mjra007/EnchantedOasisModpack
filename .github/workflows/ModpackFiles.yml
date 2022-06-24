@@ -45,7 +45,7 @@ jobs:
 
       - name: Download TechnicSolder packager
         run: | 
-          wget https://github.com/mjra007/TechnicSolderPackager/releases/download/ver-acf34997916d934e497a12752e008fc6f05a9554/technicsolderpackager.zip -P ./
+          wget https://github.com/mjra007/TechnicSolderPackager/releases/download/ver-5b2208b89611e6e79873432c748b9b6804ccc516/technicsolderpackager.zip -P ./
           unzip ./technicsolderpackager.zip
           
       - name: Execute Downloader
