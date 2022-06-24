@@ -45,7 +45,7 @@ jobs:
 
       - name: Download TechnicSolder packager
         run: | 
-          wget https://github.com/mjra007/TechnicSolderPackager/releases/download/ver-acf34997916d934e497a12752e008fc6f05a9554/technicsolderpackager.zip -P ./
+          wget https://github.com/mjra007/TechnicSolderPackager/releases/download/ver-dee1afe8a8338e46e94bea6ee356384458a8b93b/technicsolderpackager.zip -P ./
           unzip ./technicsolderpackager.zip
           
       - name: Execute Downloader
@@ -108,9 +108,12 @@ jobs:
              cd ${{secrets.MODSPATH}}
              curl -LO https://github.com/mjra007/EnchantedOasisModpack/releases/download/${{ steps.modpackVersion.outputs.value }}/${{ steps.packName.outputs.value }}TechnicSolder-${{ steps.modpackVersion.outputs.value }}.zip -P ./
              dotnet TechnicSolderPackager.dll unpacker "${{ steps.packName.outputs.value }}TechnicSolder-${{ steps.modpackVersion.outputs.value }}.zip"
-
+       
+      - name: Download NewMods.csv 
+        run: wget http://${{ secrets.SERVERIP }}/mods/NewMods.csv
+ 
       - name: Register Solder mods
-        run: dotnet TechnicSolderPackager.dll uploader ${{secrets.SOLDERUSER}} ${{secrets.SOLDERPASSWORD}}
+        run: dotnet TechnicSolderPackager.dll uploader ${{secrets.SOLDEREMAIL}} ${{secrets.SOLDERPASSWORD}} ${{ secrets.SERVERIP }}
         
 #       - name: Upload to CurseForge 
 #         uses: itsmeow/curseforge-upload@v3
