@@ -54,6 +54,9 @@ jobs:
       - name: Execute Packager
         run: dotnet TechnicSolderPackager.dll packager ${{ steps.modpackVersion.outputs.value }} ${{ steps.packName.outputs.value }}TechnicSolder
      
+      - name: Find diff
+        run: dotnet TechnicSolderPackager.dll delta "enchanted-world-oasis" ${{ secrets.SERVERIP }} ${{ steps.modpackVersion.outputs.value }}
+     
       - name: Setup Chrome 
         uses: browser-actions/setup-chrome@v0.0.0 
         
@@ -108,10 +111,9 @@ jobs:
              cd ${{secrets.MODSPATH}}
              curl -LO https://github.com/mjra007/EnchantedOasisModpack/releases/download/${{ steps.modpackVersion.outputs.value }}/${{ steps.packName.outputs.value }}TechnicSolder-${{ steps.modpackVersion.outputs.value }}.zip -P ./
              dotnet TechnicSolderPackager.dll unpacker "${{ steps.packName.outputs.value }}TechnicSolder-${{ steps.modpackVersion.outputs.value }}.zip"
-             dotnet TechnicSolderPackager.dll delta "enchanted-world-oasis" ${{ secrets.SERVERIP }} ${{ steps.modpackVersion.outputs.value }}
-            
-      - name: Download ModpackDelta.json 
-        run: wget http://${{ secrets.SERVERIP }}/mods/ModpackDelta.json
+              
+#      - name: Download ModpackDelta.json 
+#        run: wget http://${{ secrets.SERVERIP }}/mods/ModpackDelta.json
  
       - name: Register Solder mods
         run: dotnet TechnicSolderPackager.dll uploader ${{secrets.SOLDEREMAIL}} ${{secrets.SOLDERPASSWORD}} ${{ secrets.SERVERIP }}
