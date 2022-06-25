@@ -110,7 +110,7 @@ jobs:
              dotnet TechnicSolderPackager.dll unpacker "${{ steps.packName.outputs.value }}TechnicSolder-${{ steps.modpackVersion.outputs.value }}.zip"
              dotnet TechnicSolderPackager.dll delta "enchanted-world-oasis" ${{ secrets.SERVERIP }} ${{ steps.modpackVersion.outputs.value }}
             
-      - name: Download NewMods.csv 
+      - name: Download ModpackDelta.json 
         run: wget http://${{ secrets.SERVERIP }}/mods/ModpackDelta.json
  
       - name: Register Solder mods
