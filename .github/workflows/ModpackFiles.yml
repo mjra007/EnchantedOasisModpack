@@ -45,7 +45,7 @@ jobs:
 
       - name: Download TechnicSolder packager
         run: | 
-          wget https://github.com/mjra007/TechnicSolderPackager/releases/download/ver-42213a9a2e647da1ba1a1591c68e0a263329f17d/technicsolderpackager.zip -P ./
+          wget https://github.com/mjra007/TechnicSolderPackager/releases/download/ver-cff130ad203ed5e1888554ae848135ce90dab2ac/technicsolderpackager.zip -P ./
           unzip ./technicsolderpackager.zip
           
       - name: Execute Downloader
@@ -108,9 +108,10 @@ jobs:
              cd ${{secrets.MODSPATH}}
              curl -LO https://github.com/mjra007/EnchantedOasisModpack/releases/download/${{ steps.modpackVersion.outputs.value }}/${{ steps.packName.outputs.value }}TechnicSolder-${{ steps.modpackVersion.outputs.value }}.zip -P ./
              dotnet TechnicSolderPackager.dll unpacker "${{ steps.packName.outputs.value }}TechnicSolder-${{ steps.modpackVersion.outputs.value }}.zip"
-       
+             dotnet TechnicSolderPackager.dll delta "enchanted-world-oasis" ${{ secrets.SERVERIP }} ${{ steps.modpackVersion.outputs.value }}
+            
       - name: Download NewMods.csv 
-        run: wget http://${{ secrets.SERVERIP }}/mods/NewMods.csv
+        run: wget http://${{ secrets.SERVERIP }}/mods/ModpackDelta.json
  
       - name: Register Solder mods
         run: dotnet TechnicSolderPackager.dll uploader ${{secrets.SOLDEREMAIL}} ${{secrets.SOLDERPASSWORD}} ${{ secrets.SERVERIP }}
