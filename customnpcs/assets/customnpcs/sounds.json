@@ -1,6 +1,0 @@
-{
-  "songs.exploration": {
-    "category": "player",
-    "sounds": [{"name": "customnpcs:songs/exploration", "stream": true}]
-  }
-}
