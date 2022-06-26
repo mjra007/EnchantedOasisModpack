@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3 
       
-      - name: Setup Go environment
+      - name: Setup Go environmentt
         uses: actions/setup-go@v3.2.0
         with: 
           go-version: '>=1.18.0'
@@ -45,7 +45,7 @@ jobs:
 
       - name: Download TechnicSolder packager
         run: | 
-          wget https://github.com/mjra007/TechnicSolderPackager/releases/download/ver-42213a9a2e647da1ba1a1591c68e0a263329f17d/technicsolderpackager.zip -P ./
+          wget https://github.com/mjra007/TechnicSolderPackager/releases/download/ver-1320451a2c3cbb84f5a75a937a4941ccad2d9cb0/technicsolderpackager.zip -P ./
           unzip ./technicsolderpackager.zip
           
       - name: Execute Downloader
@@ -53,6 +53,9 @@ jobs:
       
       - name: Execute Packager
         run: dotnet TechnicSolderPackager.dll packager ${{ steps.modpackVersion.outputs.value }} ${{ steps.packName.outputs.value }}TechnicSolder
+     
+      - name: Find diff
+        run: dotnet TechnicSolderPackager.dll delta "enchanted-world-oasis" ${{ secrets.SERVERIP }} ${{ steps.modpackVersion.outputs.value }}
      
       - name: Setup Chrome 
         uses: browser-actions/setup-chrome@v0.0.0 
@@ -106,11 +109,9 @@ jobs:
           password: ${{ secrets.PASSWORD }} 
           script: |
              cd ${{secrets.MODSPATH}}
+             rm -r newBuild
              curl -LO https://github.com/mjra007/EnchantedOasisModpack/releases/download/${{ steps.modpackVersion.outputs.value }}/${{ steps.packName.outputs.value }}TechnicSolder-${{ steps.modpackVersion.outputs.value }}.zip -P ./
              dotnet TechnicSolderPackager.dll unpacker "${{ steps.packName.outputs.value }}TechnicSolder-${{ steps.modpackVersion.outputs.value }}.zip"
-       
-      - name: Download NewMods.csv 
-        run: wget http://${{ secrets.SERVERIP }}/mods/NewMods.csv
  
       - name: Register Solder mods
         run: dotnet TechnicSolderPackager.dll uploader ${{secrets.SOLDEREMAIL}} ${{secrets.SOLDERPASSWORD}} ${{ secrets.SERVERIP }}

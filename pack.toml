@@ -1,6 +1,6 @@
 name = "EnchantedOasis"
 author = "mjra007"
-version = "3.2.1"
+version = "3.0.1-1.12.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
