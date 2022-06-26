@@ -126,12 +126,12 @@ jobs:
       - name: Register Solder mods
         run: dotnet TechnicSolderPackager.dll uploader ${{secrets.SOLDEREMAIL}} ${{secrets.SOLDERPASSWORD}} ${{ secrets.SERVERIP }}
         
-#       - name: Upload to CurseForge 
-#         uses: itsmeow/curseforge-upload@v3
-#         with:
-#           token: ${{secrets.CURSEFORGEMODPACKKEY}}
-#           project_id: 287738
-#           game_endpoint: minecraft 
-#           file_path: ${{ steps.packName.outputs.value }}CurseForge-${{ steps.modpackVersion.outputs.value }}.zip  
-#           game_versions: 6756 
-#           release_type: release
+      - name: Upload to CurseForge 
+        uses: itsmeow/curseforge-upload@v3
+        with:
+          token: ${{secrets.CURSEFORGEMODPACKKEY}}
+          project_id: 287738
+          game_endpoint: minecraft 
+          file_path: ${{ steps.packName.outputs.value }}CurseForge-${{ steps.modpackVersion.outputs.value }}.zip  
+          game_versions: 6756 
+          release_type: release
