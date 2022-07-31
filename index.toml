@@ -10426,6 +10426,11 @@ hash = "d040a36882f5a7d823ed1cde922c9178f51dbe930dfa0de6daffcea02e442222"
 metafile = true
 
 [[files]]
+file = "mods/galacticraft-legacy.pw.toml"
+hash = "7691411b84a496f1c848d38148a058297aec5d84ed8d888b8197a8597e58884b"
+metafile = true
+
+[[files]]
 file = "mods/glibys-voice-chat-reloaded.pw.toml"
 hash = "a55a98bdcbb07c93520d2b7cb7ff4077b6a8a5f8fbc34d483e15a417664c017d"
 metafile = true
@@ -10627,7 +10632,7 @@ metafile = true
 
 [[files]]
 file = "mods/mrcrayfish-furniture-mod.pw.toml"
-hash = "c0f3c4bed53fcca276eadf4d2f22e1f4a1d4ed6e1c1d6bb33f2ce0eff238c87b"
+hash = "b4815a6bd24ab674c6acdeb36d4e6e368edd22755451cab27faa3f9a81344ab9"
 metafile = true
 
 [[files]]
