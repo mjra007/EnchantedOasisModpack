@@ -45,7 +45,7 @@ jobs:
 
       - name: Download TechnicSolder packager
         run: | 
-          wget https://github.com/mjra007/TechnicSolderPackager/releases/download/ver-fd82b1a9927055ac031528be1d680486b174d5cf/technicsolderpackager.zip -P ./
+          wget https://github.com/mjra007/TechnicSolderPackager/releases/download/ver-22a52710d8bb8f6616ad34a38f30930c1b0b1c86/technicsolderpackager.zip -P ./
           unzip ./technicsolderpackager.zip
           
       - name: Execute Downloader
@@ -126,12 +126,12 @@ jobs:
       - name: Register Solder mods
         run: dotnet TechnicSolderPackager.dll uploader ${{secrets.SOLDEREMAIL}} ${{secrets.SOLDERPASSWORD}} ${{ secrets.SERVERIP }}
         
-#       - name: Upload to CurseForge 
-#         uses: itsmeow/curseforge-upload@v3
-#         with:
-#           token: ${{secrets.CURSEFORGEMODPACKKEY}}
-#           project_id: 287738
-#           game_endpoint: minecraft 
-#           file_path: ${{ steps.packName.outputs.value }}CurseForge-${{ steps.modpackVersion.outputs.value }}.zip  
-#           game_versions: 6756 
-#           release_type: release
+      - name: Upload to CurseForge 
+        uses: itsmeow/curseforge-upload@v3
+        with:
+          token: ${{secrets.CURSEFORGEMODPACKKEY}}
+          project_id: 287738
+          game_endpoint: minecraft 
+          file_path: ${{ steps.packName.outputs.value }}CurseForge-${{ steps.modpackVersion.outputs.value }}.zip  
+          game_versions: 6756 
+          release_type: release
