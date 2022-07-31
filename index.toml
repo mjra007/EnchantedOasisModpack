@@ -10186,6 +10186,11 @@ hash = "6ea71ab9da9642908570484a4db516fce85f7bd01bd07262db3071895859b933"
 metafile = true
 
 [[files]]
+file = "mods/better-third-person.pw.toml"
+hash = "fc4f1381fd3168f5c26247243246437e6ed1466b5db751ebbb3f5d4a1b7d81c9"
+metafile = true
+
+[[files]]
 file = "mods/betterfps.pw.toml"
 hash = "c30a1b8a83001413fd39b2bc20e351b405199fa7858fb9e8be037e850b14d6ad"
 metafile = true
@@ -10193,6 +10198,11 @@ metafile = true
 [[files]]
 file = "mods/betternether.pw.toml"
 hash = "637ea48d5c51f606c7aaed7f65ddc9b7e98e9ad538e3f12915b491ee551d74bd"
+metafile = true
+
+[[files]]
+file = "mods/betterportals.pw.toml"
+hash = "34b7d18e17e5ead98bc183da986f758e6b9492db7aad7019887bbe0713786b2a"
 metafile = true
 
 [[files]]
@@ -10446,6 +10456,11 @@ hash = "01a0f265d190a8d728ae413003f92708fb2898ae1184ff76b0e97e6cda946fe4"
 metafile = true
 
 [[files]]
+file = "mods/hats.pw.toml"
+hash = "6d9ef3b58ebe74992ac20ad96df05595b85c0b6a4b7a25988ab1394fd5500a91"
+metafile = true
+
+[[files]]
 file = "mods/heartdrops.pw.toml"
 hash = "ba2aae9f43ee8664ac1ee1d7d383cc236f147321076dcbc30263156887e6e90e"
 metafile = true
@@ -10458,6 +10473,11 @@ metafile = true
 [[files]]
 file = "mods/ice-and-fire-dragons.pw.toml"
 hash = "a79c5dd38c17a9c8a2648ec8285b81746f597a3cdd6cf47b7fd4c07ca561f0df"
+metafile = true
+
+[[files]]
+file = "mods/ichunutil.pw.toml"
+hash = "e84b408fe657d70ce1292d146ebfa510843327453d245d5694de3a434ad482bd"
 metafile = true
 
 [[files]]
@@ -10488,6 +10508,11 @@ metafile = true
 [[files]]
 file = "mods/journeymap.pw.toml"
 hash = "7a8167c0cbbbf1c84c9808a192ed6321db4205cb147dfaaa6985eeaa6ee297ee"
+metafile = true
+
+[[files]]
+file = "mods/joy-of-painting.pw.toml"
+hash = "92dbf241805efa8028e549ae7e49db54b8c1140ded7526cec4c1d43d29fc9750"
 metafile = true
 
 [[files]]
@@ -10698,11 +10723,6 @@ metafile = true
 [[files]]
 file = "mods/ptrlib.pw.toml"
 hash = "9709ed48523fa6078b757c7633e17c82b7a8c16d93ac98b30ab8cb2f2f4ed920"
-metafile = true
-
-[[files]]
-file = "mods/railcraft.pw.toml"
-hash = "8c00d44d9cf8cf207460cabc84f804b1fa19cad6e9173431b1fe9e61eb1ecb84"
 metafile = true
 
 [[files]]
