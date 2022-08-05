@@ -10116,11 +10116,6 @@ hash = "102c01cea08040653b16f7a08778def199ef4e2abbed42304df4aab15c758bf5"
 metafile = true
 
 [[files]]
-file = "mods/aether.pw.toml"
-hash = "a75b310390e38e36d8d7d97e2ef33f040b355785108a5f73993ddd5c5c9639f0"
-metafile = true
-
-[[files]]
 file = "mods/applied-energistics-2.pw.toml"
 hash = "33c9cc942090a69b10a4d2e5b72a9584747bc2ff7922a81be0df3f8c2f9df50c"
 metafile = true
@@ -10201,11 +10196,6 @@ hash = "637ea48d5c51f606c7aaed7f65ddc9b7e98e9ad538e3f12915b491ee551d74bd"
 metafile = true
 
 [[files]]
-file = "mods/betterportals.pw.toml"
-hash = "34b7d18e17e5ead98bc183da986f758e6b9492db7aad7019887bbe0713786b2a"
-metafile = true
-
-[[files]]
 file = "mods/bibliocraft.pw.toml"
 hash = "ce77ef5d62e0f9f80d746ffdc485168c4345ea6e6a8e3a3d3bb240030f3748fd"
 metafile = true
@@ -10273,6 +10263,11 @@ metafile = true
 [[files]]
 file = "mods/chisel.pw.toml"
 hash = "28e43ad8b36998844f2430469c6aead4184e83a0741233cdfeed0dcee4bbefa7"
+metafile = true
+
+[[files]]
+file = "mods/chisels-bits.pw.toml"
+hash = "ebb08e770587df2f24474edcedde20842993ab136cb458cd99ceda650e4b9acf"
 metafile = true
 
 [[files]]
@@ -10358,6 +10353,11 @@ metafile = true
 [[files]]
 file = "mods/embers-rekindled.pw.toml"
 hash = "6a019e830add3cd135e8f7fc1f080b2acdac95841c4e166d5e26e119d98e6e33"
+metafile = true
+
+[[files]]
+file = "mods/emoticons.pw.toml"
+hash = "b0abea5a8b6dcb6bc646b591ab34581fa3a877d2d52d446e3a91aec72afe78ef"
 metafile = true
 
 [[files]]
