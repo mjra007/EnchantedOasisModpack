@@ -2,15 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = ".modnamesoverride"
-hash = "57d431eefb197e60955e30e70e8464e6c3e9786f8f1051cffe12c46943ef353e"
-
-[[files]]
-file = "ModpackDelta-3.0.3-1.12.2.json"
-hash = "e7e76115972c5e01905deff74a7d4778eff01f7e69708d83c4ab6277526aab5b"
-
-[[files]]
-file = "ModpackDelta-3.0.5-1.12.2.json"
-hash = "9d86f37a6bb64938ec9364af09b7ebf85418694a76f3389ead91facd2551d459"
+hash = "8db2350090841ac3404736f021bccf0872d03a7da780a9e449c90712c606e807"
 
 [[files]]
 file = "animation/1.jpg"
@@ -9465,6 +9457,10 @@ file = "config/bibliocraft.cfg"
 hash = "c1ae1175048cffbadb749be9bb138bbb5623fce16102995a1fa03a7a0c31a1c0"
 
 [[files]]
+file = "config/biomeinfo.cfg"
+hash = "53fa658de8c70f6ff7aff982835ffca0171074b4ed39e7a1274cc32ea12a9eed"
+
+[[files]]
 file = "config/biomesoplenty/biome_ids.json"
 hash = "f84ee3e7d373765fb0f75a2a1231bf5559af4cc8b30daaf45ea4bef37fea9a10"
 
@@ -10035,6 +10031,14 @@ hash = "cffe55f154b4cf8c79d9dfae035d66acf8d57d51fe87d893b549f92706d88994"
 [[files]]
 file = "config/embers.cfg"
 hash = "41a2efd3e1e795d578dc1684a6117e070c7fc276c9189a6e8c1a4858ae6b3317"
+
+[[files]]
+file = "config/emoticons/config.json"
+hash = "c5327bcb61c355e98fca9f04e54760fb3091b773fe43bf198bfa8623d5264b8a"
+
+[[files]]
+file = "config/emoticons/keys.json"
+hash = "2ab37009564037d6f19c9d9142b792795b2a23c733a9b4c22aab56762ae502a8"
 
 [[files]]
 file = "config/enderstorage.cfg"
@@ -10741,14 +10745,6 @@ file = "config/yabba.cfg"
 hash = "60cb36ef9a4f383c76dc677841501bad4f945d3e36f9e2f25be2718a1d28765c"
 
 [[files]]
-file = "customnpcs/assets/customnpcs/sounds.json"
-hash = "6041b28f04c912fe7eb63166f384f91d933534694cbf73301a40eb1b1825d365"
-
-[[files]]
-file = "customnpcs/assets/customnpcs/sounds/songs/exploration.ogg"
-hash = "7a24bab5a4649e93b0df46b0891dece647fffd3f4b5727ef44e7c65a21c3484c"
-
-[[files]]
 file = "mods/abyssalcraft-integration.pw.toml"
 hash = "fceb44a1180f31e1d384305e7d29241aa2534efb38d23e5dd331354d2a9ea71d"
 metafile = true
@@ -11420,7 +11416,7 @@ metafile = true
 
 [[files]]
 file = "mods/renderlib.pw.toml"
-hash = "e36d0a24276aef6647009c7a27e390cf946082a85c60427160744377f51840d3"
+hash = "3c9e6d1d21387e8ca308b34d72b8e6e06ef726cabdf3885a21c389a20bd5ebc6"
 metafile = true
 
 [[files]]
@@ -11526,6 +11522,11 @@ metafile = true
 [[files]]
 file = "mods/thaumic-wonders.pw.toml"
 hash = "f4b59868dc507385e25109ff5559f35ca19f866d585c581c7458bd0619cc1e7b"
+metafile = true
+
+[[files]]
+file = "mods/thaumisc.pw.toml"
+hash = "ece05083846bb6af19ed6feccf86525b0415698dfee49aeff2a148b427443dde"
 metafile = true
 
 [[files]]
@@ -14119,6 +14120,94 @@ hash = "b469cb5aa528e26394a86d3a60ddb7006c28e1b82e4be155301aed186394fd44"
 [[files]]
 file = "resources/botania/textures/model/avatartornado.png"
 hash = "3c247c1e9fbc983bc802ab2bec7b17807c7bf9de9e6a1688d5eddeb87a6679c1"
+
+[[files]]
+file = "resources/customnpcs/sounds.json"
+hash = "fc7413ab2420e67c22ce9485f20a1ef92701ae418ae6fb2abb4311451ef421f6"
+
+[[files]]
+file = "resources/customnpcs/sounds/Achaidh Cheide.ogg"
+hash = "901c9670ba69c353334a293357c00fc4d5f3e7e0deabd88f48c605f74cb8a389"
+
+[[files]]
+file = "resources/customnpcs/sounds/Celtic Impulse.ogg"
+hash = "7b81504577e4bbf5dc950d6b646173433d5f2c89a0480bf076b532d81a6a5e57"
+
+[[files]]
+file = "resources/customnpcs/sounds/Chase.ogg"
+hash = "5389be656677fd66da95b02618c63197aca0423c2a0d5564696a13277b2acb5f"
+
+[[files]]
+file = "resources/customnpcs/sounds/Confused State.ogg"
+hash = "380155b1ec1ec8c293e7412e627024a6a37309c7a6d0d0716a0ae584670501f4"
+
+[[files]]
+file = "resources/customnpcs/sounds/Constancy Part Two.ogg"
+hash = "e91f85df659f30982c5baf58be3aa848a66903f93ff75f4d2949f2ca20e2c023"
+
+[[files]]
+file = "resources/customnpcs/sounds/Double Drift.ogg"
+hash = "e3f16822b9d6e34c49984628d00e4bc57bddccda8bd85830313372255510d0cd"
+
+[[files]]
+file = "resources/customnpcs/sounds/Expeditionary.ogg"
+hash = "88717811cbd8de607eee84caddcb0888f004cb90d3c0f46ec1d3a011546842c9"
+
+[[files]]
+file = "resources/customnpcs/sounds/Exploration.ogg"
+hash = "7a24bab5a4649e93b0df46b0891dece647fffd3f4b5727ef44e7c65a21c3484c"
+
+[[files]]
+file = "resources/customnpcs/sounds/Frost Waltz (Alternate).ogg"
+hash = "b586b82a5624f305c8c77c311204ee2dc542e3092067ac4af057afaa900df152"
+
+[[files]]
+file = "resources/customnpcs/sounds/Frost Waltz.ogg"
+hash = "42471fadcb16e1d6ce00066a7b78272a923a7c2aa2d4f1417bcdd02cc7f4281f"
+
+[[files]]
+file = "resources/customnpcs/sounds/Heroic Age.ogg"
+hash = "e3ac102c7434c3ce33f0d689fef4546a4ed2e50dc67df2bc9d5f3aefae706a1d"
+
+[[files]]
+file = "resources/customnpcs/sounds/Not As It Seems.ogg"
+hash = "a5764309da59da44ace4ab0ee9ab44c798e8803a5585d0a14c5a88b6d6f8a845"
+
+[[files]]
+file = "resources/customnpcs/sounds/Opium.ogg"
+hash = "0e50cacdb1aa93290007f59dc028c1003e3e07b979503731574793f7f1f09eb6"
+
+[[files]]
+file = "resources/customnpcs/sounds/Savannah Sketch.ogg"
+hash = "ec094f54b8b5b219d56ae85d6c0963a079ca46110faa585135b4a4f788c15a15"
+
+[[files]]
+file = "resources/customnpcs/sounds/Senbazuru.ogg"
+hash = "3e2921f63f38883812757bd34b77b5b659ad5d85c5897d8a3cf631af1876a605"
+
+[[files]]
+file = "resources/customnpcs/sounds/Skye Cuillin.ogg"
+hash = "2a3597c273bca975506d460af7a9f1acb3d13ef1fa0ac81519fe22524abaadfa"
+
+[[files]]
+file = "resources/customnpcs/sounds/Temple of the Manes.ogg"
+hash = "bdeb3f8572a53fdf76f87f5e33e691248c0129ec481e5942bbb1e48575d6f4dc"
+
+[[files]]
+file = "resources/customnpcs/sounds/The Pyre.ogg"
+hash = "4333ce3c218d3731f261a36b48e329889622ab1fa81e12ee7bec5cc0ff1a7917"
+
+[[files]]
+file = "resources/customnpcs/sounds/To the Ends.ogg"
+hash = "cd7a0e80befc455bc827b37fddd50e40a4222346ccb812d6f09818e4c41d2948"
+
+[[files]]
+file = "resources/customnpcs/sounds/Unpromised.ogg"
+hash = "1e10c9caa05b4350268d2c2487684b78a71456b9975dc6e852320a257a692f0f"
+
+[[files]]
+file = "resources/customnpcs/sounds/Willow and the Light.ogg"
+hash = "b8f1128dcd4eebe7636f7d6dc9298447c33a0f49c9604cc0822c59783dbe46cf"
 
 [[files]]
 file = "resources/dimensionalores/textures/blocks/hypabyssal_ore.png"

@@ -1,13 +1,13 @@
 name = "RenderLib"
-filename = "RenderLib-1.12.2-1.1.2.jar"
+filename = "RenderLib-1.12.2-1.1.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "666ad683116396ef45f255735a44b0bb8eb26ad1"
+hash = "81945ed6664f01d81102a108953842c7e88c0fe6"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3917924
+file-id = 3925080
 project-id = 624967
