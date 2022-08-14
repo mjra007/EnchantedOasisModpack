@@ -1,13 +1,13 @@
 name = "Thaumisc"
-filename = "thaumisc-2.2.1.jar"
+filename = "thaumisc-2.2.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "4b591a428b87cc38e466908f795f47d57d9f395d"
+hash = "2f894a8e4154afdabe9ff3194d41b568cf8616a5"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3922816
+file-id = 3929573
 project-id = 637158
