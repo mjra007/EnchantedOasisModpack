@@ -3,7 +3,7 @@ hash-format = "sha256"
 [[files]]
 file = ".modnamesoverride"
 hash = "8db2350090841ac3404736f021bccf0872d03a7da780a9e449c90712c606e807"
-
+ 
 [[files]]
 file = "animation/1.jpg"
 hash = "4dd81c9f57e8615761a4c8273794133042b45f5999fb32239da87192670a7d70"
@@ -3009,644 +3009,116 @@ file = "animation/99.jpg"
 hash = "ea625a53bce2feda86f5b9da8f8af62fa7d802757d1ca157d19544a089f71283"
 
 [[files]]
-file = "builds/!mixinbooter-4.2.zip"
-hash = "0dfc986478528bbbf8b5e992e69f0f82e5dc373d6db9f7f84903aced8b5b031e"
-
-[[files]]
-file = "builds/113watermechanics-1.0.5-1.12.2.zip"
-hash = "8812e9cb542d47e0628b36d4f83e24bff01cb70a27eb9c6f70ad51b4c59dfd2f"
-
-[[files]]
 file = "builds/AbyssalCraft-1.12.2-1.10.4.zip"
-hash = "7aadce50874f7f1d2f3b5d89b509fdb04a80a5eeb4630408487e4a2bb2dc3d8d"
+hash = "c622e500eb382275130b73f8f86485fb336619c69f48bef0df431815edda8f6f"
 
 [[files]]
 file = "builds/AttributeFix-1.12.2-1.0.10.zip"
-hash = "423abadbefa612b1d9bf0106d921a7decf8307c168337290ec2370c33b0019bf"
+hash = "b16a6fe80618a3f122eabef011a795143a1c466ed8da29c18e73469fa786d35e"
 
 [[files]]
 file = "builds/BetterFps-1.4.8.zip"
-hash = "7bfc6b3ac8bfc53235cb39ee2ac9dfff93a6f8aecce0e728ccef53408d7053f8"
-
-[[files]]
-file = "builds/Bookshelf-1.12.2-2.3.590.zip"
-hash = "93c46bf9ae976874f898848e7b60e4fe605e8aa11edd4d667e41d4458737d9c1"
-
-[[files]]
-file = "builds/BornInABarn- V1.8-1.12-1.1.zip"
-hash = "d45f752e1c8d5097286563df1833dc42462872721047e60659075b905cd64b44"
-
-[[files]]
-file = "builds/Chisel-MC1.12.2-1.0.2.45.zip"
-hash = "f8a5b732bbd14cec3395a91a69ccd2920f3602abea92adfc3a9d410b72fc5bd1"
-
-[[files]]
-file = "builds/EntityCulling-1.12.2-6.0.2.zip"
-hash = "d1c5d9296732a0745edacdf5cc7c48b1ebfe3c575f4f01eff71a51852652464d"
-
-[[files]]
-file = "builds/EvilCraft-1.12.2-0.10.78.zip"
-hash = "45c3fa8c22307e4c45146938707508606625fe7c7202c3566a632ac2af99d955"
-
-[[files]]
-file = "builds/FoamFix-0.10.14-1.12.2.zip"
-hash = "27c010d4955e8ac150194553491b3ab25d67a24ea2a8d4838830bb465d9663e7"
-
-[[files]]
-file = "builds/HammerLib-1.12.2-2.0.6.32.zip"
-hash = "15833a6bc7c7a76a750b9851eb016d4cb9a31ae4c272a5e5fe0d89e57a79ecde"
-
-[[files]]
-file = "builds/Hwyla-1.8.26-B41_1.12.2.zip"
-hash = "6d7a8dfdfa6795075b6ef59862a6e716b3f8ca016f3baeeded4c89974d8e4841"
-
-[[files]]
-file = "builds/Mantle-1.12-1.3.3.55.zip"
-hash = "04214770119b064aaa559e209c9660f8ebd524fc429d773b6420c7025b3551c4"
-
-[[files]]
-file = "builds/PTRLib-1.0.5.zip"
-hash = "e7e129b81939c7ce8393af2c2bb348a525a6cedc5de351a1870e07380ae4980b"
-
-[[files]]
-file = "builds/Placebo-1.12.2-1.6.0.zip"
-hash = "26399a1e991b1056337c6516dec78ca415bb391b693f83b644f147161ac39a69"
-
-[[files]]
-file = "builds/ReAuth-1.12-Forge-4.0.3.zip"
-hash = "564eb6c7ddfb913c2f688434db4d70622b95188c3af8ed3647690ece6b6c17f4"
-
-[[files]]
-file = "builds/TConstruct-1.12.2-2.13.0.183.zip"
-hash = "091e1a66578ab749285632b2ffc58732508191b5030aacb7a44b7c840be0acb5"
-
-[[files]]
-file = "builds/_MixinBootstrap-1.1.0.zip"
-hash = "41d869c977159f6b9238a4ecdfe9298d14ed55003701b5fa859249b7924e0c04"
+hash = "92fc3359b7f6f0b2b39865523b8f8116293c9d8ea064bbd609317b3c02db61a0"
 
 [[files]]
 file = "builds/acintegration-1.12.2-1.11.3.zip"
-hash = "5480e6b3642a95fcdd048674d4588e339c6a5a79558b4408c869502749db2c1d"
+hash = "2c658a0b4b1f117d6f31a4bbfe2fb43944112890384ce89fd1aa30857ad9c8fa"
 
 [[files]]
 file = "builds/aether2-1.12.2-0.3.0+build411-universal.zip"
-hash = "7974aa0e702c848862955fa509bf73dc8bb6a943ec663fec295d81d7f828f2f0"
-
-[[files]]
-file = "builds/aether_legacy-1.12.2-v1.5.3.2.zip"
-hash = "effe0fb6261a89a0bad96afcb3cf8e7c6791caa2e0723be6e85f4b61f9260b50"
+hash = "87a63f4e2beda2556adb7fa695165dfa8ae91644363e9ac5fd70042a94f951e3"
 
 [[files]]
 file = "builds/animation-EnchantedOasis.zip"
-hash = "e3a34f35063b55b4635e838636ab4da9f2d59636401308ccb9032dc774609a12"
+hash = "dd9551a0bb1201339dae9f731279781511bcaf658ad7d105e0df2b1038cef0bd"
 
 [[files]]
 file = "builds/appliedenergistics2-rv6-stable-7.zip"
-hash = "37f2de2f80bdc3cb74bdcdc2adca8ae3b753cc5d2801716ca7d4888f400d8738"
+hash = "b475626255d61323300a1b8ff101cc654d8246ca08f736b13b187e30395f5da1"
 
 [[files]]
-file = "builds/aquaacrobatics-1.14.1.zip"
-hash = "8c26e5c7a7836abcb87bb4aa24f796a119830e2afc16caa3a87f7be2e4201520"
+file = "builds/aquaacrobatics-1.14.4.zip"
+hash = "2a4b98e97ff581749d8637680e13d09ca06de0adb097798f414b883fe13c5379"
 
 [[files]]
 file = "builds/armourersworkshop-1.12.2-0.51.0.zip"
-hash = "9cbf648c3674feef9569ab7ef742b2498c9651aee77c916eb8e20afe2d96c6af"
+hash = "0688dc764a5da32aa481eef24bfe8798013e1d8e19feb7aa910e9720f5f62a05"
 
 [[files]]
 file = "builds/astralsorcery-1.12.2-1.10.27.zip"
-hash = "8f4fd17e08abc00d6e1f7c098c1e8c1af47bdf21c23646fa4a3404f889d46593"
+hash = "4d9ba07c4b9f0729b47eec66bbc08125686336006e5275c03fb3e0c9f1b1580e"
 
 [[files]]
 file = "builds/autoreglib-1.3-32.zip"
-hash = "46a2535a81b38b0371daf7c30bca3b4856ecb283a4f2276caaff1235325a2c1f"
+hash = "ed87cba6491d26c42bae750fee1bf4b907c25f3d716da3d3153f7eefd51a1684"
 
 [[files]]
 file = "builds/baubles-1.12-1.5.2.zip"
-hash = "a0c1c79bdde5b5da022de1cb26376f28b7731590114b0997f62053a4f498bff2"
-
-[[files]]
-file = "builds/bettercaves-1.12.2-2.0.4.zip"
-hash = "3ffb8f1ff62c1e05bbed1ddcc610e565d85aeb7c4b8d4b890980ffa9b39eda62"
+hash = "bca84cd5baff84cf9f193d681f13603f26956f0df55c1c50ad673a6763530697"
 
 [[files]]
 file = "builds/betterfoliage-MC1.12-2.3.3.zip"
-hash = "7881245c15db72a7d032dd5fae132ef3363e90f7d33ca03c6e09eb106529591d"
+hash = "e4c780e5a345696b6510593c47d4bd67dd0ae0dd4c680be7f33120a5a0193a7c"
 
 [[files]]
 file = "builds/betterinvalidsession-1.12.2-1.0.3.zip"
-hash = "c3e6dae0cc7fb535db0a245f5a0688713705e273266a94f55ba67eec16669648"
-
-[[files]]
-file = "builds/bettermineshaftsforge-1.12.2-2.2.1.zip"
-hash = "49986b012540e9128aa5404f535dfae8e20699f09cd511ea056f404794da29ff"
+hash = "937390d50ce5bdddce1294d2667bb5b94c7bb3e8b87a84f0d98164f2ab5838ff"
 
 [[files]]
 file = "builds/betternether-0.1.8.6.zip"
-hash = "e08590fbacb7d76b361f5049d478785cb7f95f390169c971ec77f3d5aff9e079"
+hash = "4f1fe72d64b2d20bd531dd309ec3a35b9575681f6c2dcef60c43e2be9e95f898"
 
 [[files]]
 file = "builds/betterquesting-3.5.329.zip"
-hash = "dbd219ccfbf1a56c8361777d7c01dcf293147d96e8a1d3eb511caaa876bddecd"
+hash = "628136fbc7dbf845df2dc3de91078d508133e6c3d9d02841c53758d0f6052015"
+
+[[files]]
+file = "builds/betterthirdperson-Forge-1.12.2-1.8.1.zip"
+hash = "a4474ff439ec9d4053843f415880ec28b82feed9656c2944962a199d70c84b65"
 
 [[files]]
 file = "builds/bibliocraft-[v2.4.6][MC1.12.2].zip"
-hash = "1cc76b5376db57b24e44727f40ba144c2acc460babc96e50d14f5b567f33f0e5"
+hash = "72475220a19e972d674245ed0ffb49f6fba882fd59eb864ba7ecbecedde39b79"
 
 [[files]]
 file = "builds/binniecore-1.12.2-2.5.1.203.zip"
-hash = "926a0f1422ee0a44f8e72e35830c352998bee86f1336cd750796fe3e83a02cba"
+hash = "105d950dbb92146a9c7017a1d4050520130da32dbfc561c0e6a1dac726e178d7"
+
+[[files]]
+file = "builds/biomeinfo-1.12.2-v1.2.5.zip"
+hash = "4f158904eba03f0dcc03b6c27a24b5802f1d83b582406d821a34d2b2b4f3f4f3"
 
 [[files]]
 file = "builds/biomesoplenty-1.12.2-7.0.1.2445-universal.zip"
-hash = "bc2449f3828b847e2b1d8388d765020f712a67c88e6d9bc975050ef7b256ab19"
+hash = "4fe9e5cc74a794a0f0de39120246b0841ef2085e40297fe59200a82ac61a630b"
 
 [[files]]
 file = "builds/blockcraftery-1.12.2-1.3.1.zip"
-hash = "e6c795010acfb1a1e03a949c2b9380e547e6ebd7071d01bb4486125efb29d2e4"
-
-[[files]]
-file = "builds/bloodmagic-1.12.2-2.4.3-105.zip"
-hash = "a01051a8883219b029400983743065f22d4bb24f35c68cc99a33b44e3b74f8fa"
-
-[[files]]
-file = "builds/bookworm-1.12.2-2.5.2.1.zip"
-hash = "93662f7b146af3eaaa6ac4f0a431e157857eaaf2d36e8accb5aba3aed7338068"
-
-[[files]]
-file = "builds/botania-r1.10-364.4.zip"
-hash = "386caafe7c7a6964ebe52ef061d88d36dcdb380740bc3d2faff1bea9ee2a03eb"
+hash = "eb14e5e40b35732566942ba954976ddbbf47b63df8680dd2bf7c55d01584da0e"
 
 [[files]]
 file = "builds/bqnpcintegration-3.4.34.zip"
-hash = "16087d5294ee2a0721777b0d46edb7ec9160e23135e4c00179e535525a1a9806"
+hash = "128a80c322f98885dea855d347d1288b41170eb83e5d29d520e6fe426e11fff7"
 
 [[files]]
 file = "builds/bqstandard-3.4.173.zip"
-hash = "84a8b1a3ea458482d759f05ec5295582bede60edab08f59531bc4e206529c10c"
-
-[[files]]
-file = "builds/bspkrscore-universal-7.6.0.1.zip"
-hash = "980f676af2dfa5816d5316d30945d6d22272e0b3d9912b272c41c6395de02ddf"
-
-[[files]]
-file = "builds/butterflies-1.12.2-1.0.3.zip"
-hash = "bca8e4bd683d13dfed6073877b29f2f6b21203d83dd9128afad790fc3600cb74"
-
-[[files]]
-file = "builds/careerbees-0.4.0.zip"
-hash = "ee1326ce86a3432de7af1664d0c9bc195c253209a56ac4b73f51ba006c5f2ff0"
-
-[[files]]
-file = "builds/codechickenlib-1.12.2-3.2.3.358-universal.zip"
-hash = "a523f957fa120080f49f07cd7bd2247caf7a71b0c1d1bfa1ef363343154486d8"
+hash = "b77de5fcdc4a7a7096126b79db2ae396cdb75583c3002ec484d2a2801cd2a5a9"
 
 [[files]]
 file = "builds/config-EnchantedOasis.zip"
-hash = "62c97fe9bb8a81800e8871092ffcb9d92c4d89513b75b116aedc72c0c5fa6fc4"
-
-[[files]]
-file = "builds/controlling-3.0.10.zip"
-hash = "3cb575fa27a60e712fa400dd301c3a163f27c301be530cb4a6826d399f48a608"
-
-[[files]]
-file = "builds/cookingforblockheads-1.12.2-6.5.0.zip"
-hash = "41b1ef5a55dc6c41876a3a81ec02729b6e86b9f564eaaaf4fb9aa23f86ee107b"
-
-[[files]]
-file = "builds/cosmeticarmor-1.12.2-v5a.zip"
-hash = "e3430442cbcb4df0c94ed5952b28c57985afaee867f6e624b7969b85bfb09d6e"
-
-[[files]]
-file = "builds/crimsonrevelations-0.8.zip"
-hash = "bbeab7f13cf331d9a29dad4401e9ba0bd25a3d528457cfdbea5dbae48bb5027d"
-
-[[files]]
-file = "builds/ctm-MC1.12.2-1.0.2.31.zip"
-hash = "eed528eb0f4eb51effee9cc6b7733984ba0eeea86949d4a2ed7fbd7eb78d273d"
-
-[[files]]
-file = "builds/cucumber-1.12.2-1.1.3.zip"
-hash = "bce0134c38d96627e4622d9f599937c7c9a23521f6b1a585770670aba4c40e97"
-
-[[files]]
-file = "builds/custommobspawner-3.11.5.zip"
-hash = "9a941e04826fb4395d5376cad4a2ccbbf43a9f1cd1967f3354074035d97e70c6"
-
-[[files]]
-file = "builds/customnpcs-1.12.2-(05Jul20).zip"
-hash = "9eb7a67f006238ee002225343cdd9684088f4e2879525f30e8e0de78dcaae930"
-
-[[files]]
-file = "builds/cyclopscore-1.12.2-1.6.7.zip"
-hash = "8c8bc363c27bafe7ce8707d11497209219b88ee7213d699d07b8bf32c43c0cee"
-
-[[files]]
-file = "builds/decocraft-2.6.3.7_1.12.2.zip"
-hash = "6c87efd145832cf53a7ec0512d33f9517c1ab6598e2e876d772a361573a0774d"
-
-[[files]]
-file = "builds/deuf-1.1-1.12.2.zip"
-hash = "90fb29b0bd7ec37df65a7bfcb17fa6ece009175c29c823201858313eaa82f51f"
-
-[[files]]
-file = "builds/dupefixproject-1.12.2-3.1.6.zip"
-hash = "24b1b108fdd4170835fbf0a0757e9688e7da9a8feab4615dbe04322c6d86ffc7"
-
-[[files]]
-file = "builds/dynamiclights-1.12.2.zip"
-hash = "620c45854462393db842dffc198a741aafb524f06ace9f83297a0be8e3911636"
-
-[[files]]
-file = "builds/dynamicsurroundings-1.12.2-3.6.3.zip"
-hash = "8d9e13b4edac8fb9c869b52e63542037e5f22186af8583aa8a7d6bcd64371181"
-
-[[files]]
-file = "builds/embers-1.19.zip"
-hash = "7037fcef8b4bb648bdd69b7ea04653081d67e7966fcbb2d76200c65b4bbe9a1e"
-
-[[files]]
-file = "builds/enchantingplus-1.12.2-5.0.179.zip"
-hash = "b61fd576506afd21f78dd39b388f6dc4ea9e87e866da3730062891e35014ee52"
-
-[[files]]
-file = "builds/enderstorage-1.12.2-2.4.6.137-universal.zip"
-hash = "17042774b3155e726b716a6f48d08fe94b1d9842442c3fbeb1bb309356f41e49"
-
-[[files]]
-file = "builds/extrautils2-1.12-1.9.9.zip"
-hash = "176d4048943ccd71b9f423e62c27741f302f4cf6bad36c2674a5e1f96f8daf4b"
-
-[[files]]
-file = "builds/fairylights-2.2.0-1.12.2.zip"
-hash = "cf0bf151ced13fdd2bbafddc342963224c718634ea8b9eb8c551e15917b6a16c"
-
-[[files]]
-file = "builds/forbiddenarcanus-1.12.2-1.1.4.zip"
-hash = "98e56b3352e344e530559f4d88c75ff826aebe4f5a06bc731d133f3694b36e45"
-
-[[files]]
-file = "builds/forestry-1.12.2-5.8.2.422.zip"
-hash = "f3b3587ae99fd64d16cb1896f52222943c58683739be52259df58eb9ccbf248e"
-
-[[files]]
-file = "builds/forgelin-1.8.4.zip"
-hash = "5b214d6c01a9ed6d5e0c2a8f7ab578fb29694ca89450907715dafd3b542646e1"
-
-[[files]]
-file = "builds/fossil-8.0.5.zip"
-hash = "6e4459e66c7bbc9ea0c58796e53ce0fc2815f176d560b8aa77d19ea888302ad0"
-
-[[files]]
-file = "builds/fpsreducer-mc1.12.2-1.20.zip"
-hash = "962c49d3a87cf885f17d05a4a0a2071e3ed2d19ddaad59bdaf73a98283f9b79e"
-
-[[files]]
-file = "builds/ftblib-5.4.7.2.zip"
-hash = "b7d594ff7bc874f849a580542b71e29dba42c290fe79a0035cb429ae6f004ee9"
-
-[[files]]
-file = "builds/furniture-6.3.1-1.12.2.zip"
-hash = "3de57e666344de280dec49f7d8aa973ecf250f4840ee5a42b0883d28cb6f4fdc"
-
-[[files]]
-file = "builds/futuremc-0.2.9.zip"
-hash = "85d0d396dbdf7f87e674a584599b977e2a7113bddd9ce1c7d7d6d5e9c5d10d48"
-
-[[files]]
-file = "builds/grimoireofgaia-1.12.2-1.7.2.zip"
-hash = "4f3bf57da0f4aa7fee5ee2258e4ef1eadb36670b971c411097a793887b86be5b"
-
-[[files]]
-file = "builds/growthcraft-1.12.2-4.2.2.1.zip"
-hash = "bfaf7db548c6c500a7817772e8651a8f60fa4b7341530325ac175538999c12b5"
-
-[[files]]
-file = "builds/guideapi-1.12-2.1.8-63.zip"
-hash = "1276bf865412c9bbbcd2c7f0fb71f1e37d5e2ece7af1ae928935e562a3a4b4ea"
-
-[[files]]
-file = "builds/harvest-1.12-1.2.8-25.zip"
-hash = "2fb789e8122f9002a976498a8a70ef36b7a27b59c5e71938fb05657db1e2d68d"
-
-[[files]]
-file = "builds/heartdrops-1.12.2-3.0.0.4.zip"
-hash = "ffaf3918b44882f0692a647f47ed98cb79f07075553d8f9eea300c326b84d5af"
-
-[[files]]
-file = "builds/iceandfire-1.9.1-1.12.2.zip"
-hash = "851190eb2add28c33fa94f35c4063c5fc4ad991c0e49c95bf9c90527e321e78c"
-
-[[files]]
-file = "builds/inventorypets-1.12-2.0.15.zip"
-hash = "3ec1d59eb68bbb4640594c3a929cfa2b3c2aa320125b092522f9d4a8bb946bd6"
-
-[[files]]
-file = "builds/inventorytweaks-1.64+dev.151.zip"
-hash = "b81f4e0f9e767f9725e00c7fa4876925498237c81282e65ace21b65a6632133f"
-
-[[files]]
-file = "builds/ironchest-1.12.2-7.0.72.847.zip"
-hash = "33154695ff1af5c73993326a72dd368841485a5c5801cf59a275b15c8646d4de"
-
-[[files]]
-file = "builds/jei-1.12.2-4.22.0.zip"
-hash = "904a3bbfd2c90cac5a9288aef924b035f80bbe2400af36d6b2117de1ee6464a3"
-
-[[files]]
-file = "builds/jeibees-0.9.0.5-mc1.12.2.zip"
-hash = "dd06754231ed9c0b318fc5f9f90504bc3b2554a33dd15027c41a5b6ef6b9b1e3"
-
-[[files]]
-file = "builds/jeid-1.0.4-SNAPSHOT-thin.zip"
-hash = "dc4d838ef036cc9790779ebf4be4b7feb4bfc6e4e7afda2b9632eed5c1c19c55"
-
-[[files]]
-file = "builds/jeresources-1.12.2-0.9.2.60.zip"
-hash = "97f6bcae5955c448c5fab3a43bbd9cf326cbcc896652050eb2dec468eb58b59c"
-
-[[files]]
-file = "builds/journeymap-1.12.2-5.7.1.zip"
-hash = "33b2d7ea138e32fa289e545c5f2c6d811b0d48597a5f915fbbba9e556eb91d47"
-
-[[files]]
-file = "builds/justenoughenergistics-1.12.2-1.0.8.zip"
-hash = "22791176f8ddfd6cd4791d644ff51e42f8a5b1b01ccee7c6450c2489029de4c8"
-
-[[files]]
-file = "builds/justenoughharvestcraft-1.12.2-1.7.2.zip"
-hash = "cf792c991fbf400beadb3414a655e00044cb4127cd6d56f217baf89f8f42ae35"
-
-[[files]]
-file = "builds/librarianlib-1.12.2-4.22.zip"
-hash = "f955c1c3c620bdea2791857ba44396eb53e1430b9860aba1dac66a78e8b87dc0"
-
-[[files]]
-file = "builds/llibrary-1.7.20-1.12.2.zip"
-hash = "aabd193a4eb66324d5980d0bf65160e4ae76d2d8da5a7d9c04a6b7ae37a0749e"
-
-[[files]]
-file = "builds/loliasm-5.3.zip"
-hash = "3a0eb0629f52c46208b9711817a1f0fd54b5e5891f0570a21190674c26a12ba5"
-
-[[files]]
-file = "builds/lunatriuscore-1.12.2-1.2.0.42-universal.zip"
-hash = "df167e303541bddca201d7cf7f65687af7e656270ef41f15c64681ad6573a9e0"
-
-[[files]]
-file = "builds/magicbees-1.12.2-3.2.25.zip"
-hash = "f7fc8667b747a79d48685eec1016c7404cef8cc58484f8325ab2bb91d8c2fd29"
-
-[[files]]
-file = "builds/mclib-2.4-1.12.2.zip"
-hash = "24204e773601046abc4bc4cc9cdceba13c708b51fcea49aa012254b89981b03d"
-
-[[files]]
-file = "builds/mcwbridges-1.0.6b-mc1.12.2.zip"
-hash = "7899f52894fcca34e1bd52afafa1e7b9d6baf53b4cc41b7aa7fc072c5da6e9cf"
-
-[[files]]
-file = "builds/mcwdoors-1.0.3-mc1.12.2.zip"
-hash = "62202273afb8009973f03ede95de4d2cbd26fb2be7df45f4efb23c7f0052f175"
-
-[[files]]
-file = "builds/mcwfences-1.0.0-mc1.12.2.zip"
-hash = "5f22c30366168303edfff41ee193a87aa8d8cd0b7c6f4d668af609fb8e930d98"
-
-[[files]]
-file = "builds/mcwfurniture-1.0.1-mc1.12.2beta.zip"
-hash = "9ee01ec3b3a7adf6710be0cd07666442dc8791af5afe43f2f6bdd872e9240d65"
-
-[[files]]
-file = "builds/mcwroofs-1.0.2-mc1.12.2.zip"
-hash = "1a93787d4fc4eb02f97e0aa4d047e8fa2e4459c622cb87c120e0409e5db0e425"
-
-[[files]]
-file = "builds/mcwtrapdoors-1.0.3-mc1.12.2.zip"
-hash = "1e51b5dc405d3d1d76899c3679893fd1d3befdabf902bc196c4d5f4b27019050"
-
-[[files]]
-file = "builds/mcwwindows-1.0.0-mc1.12.2.zip"
-hash = "25a58f37c07f1a04c13d40d6c8e223765286bdea26042b9bcff6829dc074f110"
-
-[[files]]
-file = "builds/metamorph-1.3-1.12.2.zip"
-hash = "81f9d8a2cebfac71b4b02f6aa32c6b24115110344d817276fe8acb4b3a17a34b"
-
-[[files]]
-file = "builds/mocreatures-12.0.5.zip"
-hash = "6f39d0d1b868f2bd36cbeee0d5b564dbd9521381a1dec7230736019cadce948f"
-
-[[files]]
-file = "builds/mowziesmobs-1.5.8.zip"
-hash = "fc680ba9e544c6b984c766218e1ace91eec451eca5468e48961381fa8290ff5c"
-
-[[files]]
-file = "builds/mysticalagriculture-1.12.2-1.7.5.zip"
-hash = "1ffb6ba65da784baa939888f63595e2f590a4bfd056dd3833ef07e3df80180e3"
-
-[[files]]
-file = "builds/mysticallib-1.12.2-1.13.0.zip"
-hash = "7fe920764f7ef7b7ba4b7508be4819924845d3b1737453153118832854356e76"
-
-[[files]]
-file = "builds/mysticalworld-1.12.2-1.11.0.zip"
-hash = "81b02a5e9f6c8b458e048e4b5394b16e63d178ba36799d8de1b307b8b1a958e7"
-
-[[files]]
-file = "builds/natura-1.12.2-4.3.2.69.zip"
-hash = "2294e45ada6ceadfb59b78d77419b49bf143fe0d7955e454b5881a46de7bcc2d"
-
-[[files]]
-file = "builds/naturalpledge-r3.1.2.zip"
-hash = "b64f18638137bfe04f7b6ab8615500583297e9cf1d5c215aabc1e8e9fde2512a"
-
-[[files]]
-file = "builds/naturesaura-18.1.zip"
-hash = "e51822422b3b3efbe912f3bf1dfe1be4b8f1aa619a177fd41ac640dc7eaee0ce"
-
-[[files]]
-file = "builds/nothirium-1.12.2-0.1.4-beta.zip"
-hash = "14ffc53cc75e439f22957f9c6a3c3e2662fc7feeb327091b89efbb53a65e2723"
-
-[[files]]
-file = "builds/openblocks-1.12.2-1.8.1.zip"
-hash = "6cf5fdf45f70bfa0c533431ae962644eeed2a5e99bf03c0c07c1ca43e5f53b80"
-
-[[files]]
-file = "builds/openmodslib-1.12.2-0.12.2.zip"
-hash = "6612a359cbf5856952dd0983ab9a221d0dd2b737ed943831b66837cd9fbe45f6"
-
-[[files]]
-file = "builds/orelib-1.12.2-3.6.0.1.zip"
-hash = "08be8cb5a94284a8d66f7d3800f4df0f0364f94a8f41f06c7bafbd13630fd4ff"
-
-[[files]]
-file = "builds/pambrewcraft-1.12.2-1.0.2.zip"
-hash = "15d06d1bbc1b57f362065bd313c42202cd07f6fe97f768effced1a44ca900bf0"
-
-[[files]]
-file = "builds/pamgetallseeds-1.12a.zip"
-hash = "dfb8c72970750492acafcf89765b9da3bdc7a75b01ec65f18b1db850d5e4abfb"
-
-[[files]]
-file = "builds/pamharvestcraft-1.12.2zg.zip"
-hash = "2f52db519a10b681770eee4abae4b336df393b89e666b7e290ec9ee5d3c94ff9"
-
-[[files]]
-file = "builds/pamsimpleharvest-2.0.0.zip"
-hash = "7c1de90e70967626eb49f9081228bee681cf6e8a5b0c6e9d32ba3109df8cd348"
-
-[[files]]
-file = "builds/patchouli-1.0-23.6.zip"
-hash = "f091732dbd0e073689d919cba01ba99f1cd38be77e8652d6486ebd312035ac36"
-
-[[files]]
-file = "builds/performant-1.11.zip"
-hash = "74409c024c5429d1c036c6271ae2878e35cc68933c5fe34440e801f7f72933ef"
+hash = "d7ced4db89d1b32b0fbb133f935fbc1fe0aa29f92f48f4b627ff0c50536eff11"
 
 [[files]]
 file = "builds/questbook-3.1.1-1.12.zip"
-hash = "a4e9d86a49eeb1bc8c50977e12da8f2687d10f08ef6d1ba3d06a559f626d6363"
+hash = "4f30f7653ea3a11e523350d10d5bd59d983fa3bccba2be56215313be10210716"
 
 [[files]]
-file = "builds/railcraft-12.1.0-beta-2.zip"
-hash = "5825e3ea7969bf88fd86a081eb3bda78fddf3a978049c02e1fa68e4d08b654c7"
+file = "builds/resources-EnchantedOasis.zip"
+hash = "e648220d1784890010d0e90dd5b92224e36b217606968081f51fc5024ef44513"
 
 [[files]]
-file = "builds/randompatches-1.12.2-1.22.1.10.zip"
-hash = "c520c5cc6af4a5c7640128eb0bab25df9895eda438c777f5c791f77b83d02d57"
-
-[[files]]
-file = "builds/rats-3.2.14-1.12.2.zip"
-hash = "db4718c46cc404485361034cd032c87a8b86a1f566dbcf151ca138c0925fda3f"
-
-[[files]]
-file = "builds/renderlib-1.12.2-1.0.7.zip"
-hash = "ed4ea779df1c589866ce95b116f89eaf58392a6145e361f084d4ca0c7bcd1687"
-
-[[files]]
-file = "builds/resourceloader-MC1.12.1-1.5.3.zip"
-hash = "719b45914f98a1205ebcfa75aea3abb8ab43f64b310be87fdcf066d51b3fcc72"
-
-[[files]]
-file = "builds/roots-1.12.2-3.1.5.zip"
-hash = "5514870913949d51c38da685ee98b4fa7f08172da5bb9c625cc026d31f039f60"
-
-[[files]]
-file = "builds/rpintegration-1.12.2-1.5.1.0.zip"
-hash = "3db8aa9de51cf947365680c294ea351b093289f5a8fd7e2b6c2e2d45c9ebfa1f"
-
-[[files]]
-file = "builds/schematic-1.12.2-1.8.0.169-universal.zip"
-hash = "2e30ed2527b4655dc3cc5ae4e1344aad0c8784b80904a122ad9353b95c6156fc"
-
-[[files]]
-file = "builds/serverredirect-ForgeMC12-1.4.4.zip"
-hash = "b194eda6e8ee84762f552bdccb3b88c7af454a90197e89d032dc9f6331ebbf05"
-
-[[files]]
-file = "builds/splashanimation-0.2.1.zip"
-hash = "9bf38d18b04ebe5aa744239f67e2d05852d70c3637e87f315df8f7e97c70eb31"
-
-[[files]]
-file = "builds/stg-1.12.2-1.2.3.zip"
-hash = "476ee38133d27af86902e4a4ed03766fb7cebafc53f5363c7f97e80784e705e8"
-
-[[files]]
-file = "builds/surge-1.12.2-2.0.79.zip"
-hash = "218b4459669a75bb62d5c202aae115e4d1950d961bebeee569fe6d123c8d7208"
-
-[[files]]
-file = "builds/tcinventoryscan-1.12.2-2.0.10.zip"
-hash = "1fc35340c2558bb7b256d456d7664a3ae3fb3cbb913e0281e008d27b3b99f3ed"
-
-[[files]]
-file = "builds/thaumcraft-1.12.2-6.1.BETA26.zip"
-hash = "26fdaacc351f898b4038ce631415fdbdd97a0393fc64f93a1dda1c6e0079783c"
-
-[[files]]
-file = "builds/thaumicadditions-1.12.2-12.7.8.zip"
-hash = "438e7b0bc0a64844802fd9a546bb8adf6f129d11e4de8888e73d3011ade90864"
-
-[[files]]
-file = "builds/thaumicaugmentation-1.12.2-2.1.7.zip"
-hash = "8f6932525bdd563294826ce7ff88df4678e3b05ea18da07c3dc1df8de3fcab6f"
-
-[[files]]
-file = "builds/thaumicbrewing-1.0.2.zip"
-hash = "94c221e18f2ae2b8023f04f0c5713dd13d74c6084043a6231f99ec56f5c75ac3"
-
-[[files]]
-file = "builds/thaumicenergistics-2.2.4.zip"
-hash = "79305461c64ff259cd93c03d586cff123019f6bf0b1ebb108ce13be7502ef19c"
-
-[[files]]
-file = "builds/thaumicjei-1.12.2-1.6.0-27.zip"
-hash = "db734bea57cb3941c2e8190e6abfd081c53ae7a48fd4759384ba81823bfc9dbe"
-
-[[files]]
-file = "builds/thaumicperiphery-0.3.1.zip"
-hash = "b44c8861f1e8250de1541d7b12497256ab1eb1a71d9825764c5fb9a8bc75fc9e"
-
-[[files]]
-file = "builds/thaumictinkerer-1.12.2-5.0-620a0c5.zip"
-hash = "3aaff2e267a9cfe959370bcbab1ec0eb7f5043116351939027c9085df265facb"
-
-[[files]]
-file = "builds/thaumicwands-1.2.6.zip"
-hash = "131a3b875e166bebb69edd4063ab0eed7ce7c7244cacbafa295388a8451416fe"
-
-[[files]]
-file = "builds/thaumicwonders-1.8.2.zip"
-hash = "2309a355dc8eb5f17ed10e43f080361c751f9c3c7c801d94070be42f71642a2b"
-
-[[files]]
-file = "builds/tinkersjei-1.2.zip"
-hash = "a2ec696bd0dcfcd6b82ab3aa5e395ee76f9012a5a12f4a6070696170cf170110"
-
-[[files]]
-file = "builds/tombstone-4.5.5-1.12.2.zip"
-hash = "92c699264c88008363bfbbfe36c477b28b3a737fb7721ef389a282062aea6644"
-
-[[files]]
-file = "builds/travelersbackpack-1.12.2-1.0.35.zip"
-hash = "953743118b7f530fa19e4704bc22f901e7524a1cfe763fccf4a37031fa3b9659"
-
-[[files]]
-file = "builds/treecapitator-client-1.43.0.zip"
-hash = "528ed2859aef5093d403f69de2aae06a473cb44de30c98becf211bcac81cbe8e"
-
-[[files]]
-file = "builds/twilightforest-1.12.2-3.11.1021-universal.zip"
-hash = "4b8b96384af7d81eb3dd11bc6783b8c55cdef746ad67ede76a9d0e330cc0466d"
-
-[[files]]
-file = "builds/unloader-1.2.0.zip"
-hash = "7030fd801e3a16208b373938810e91d5587683c906a659401253e8f294f57dea"
-
-[[files]]
-file = "builds/voicechat-1.2.5.zip"
-hash = "9fdeec07ecb2d6567d78812559547ee71dbca1e131bc3ad1c3af306588d3a419"
-
-[[files]]
-file = "builds/wailaharvestability-mc1.12-1.1.12.zip"
-hash = "06190de4325c910d8bd1c5c29de76fb9c970a1b9c04fd222b9791ae613d80efe"
-
-[[files]]
-file = "builds/wawla-1.12.2-2.6.275.zip"
-hash = "6781570c6290e215b59774e76fa090161d711f59e8be8887060de563950c9554"
-
-[[files]]
-file = "builds/weeeflowers-1.12.2b.zip"
-hash = "4b94e3be5a07dbd5a1032fbe239066f30745017669ae9c51086f6a9552c014df"
-
-[[files]]
-file = "builds/yabba-1.1.2.54.zip"
-hash = "df2a288b84c9fc0b188eb83dec1e81b3d4e1f8c14ee9d83f300bf015e33515e4"
-
-[[files]]
-file = "builds/zawa-1.12.2-2.1.3.zip"
-hash = "a96566d92d15d0fdd5c68f474492897a76e655d0c6b823c99379baa5df4da8f5"
+file = "builds/scripts-EnchantedOasis.zip"
+hash = "4cc719f0b2c7f8899ce5efadb5ecb7a99f92da7fa394ff66bb6578c3c5e820ad"
 
 [[files]]
 file = "config/Aether/analytics.json.gz"
@@ -9330,7 +8802,7 @@ hash = "73e6e5e9ff847a1110292a1d6d6952bbbffadefd95b905cc8f943dcbcbdb93f0"
 
 [[files]]
 file = "config/ZooAndWildAnimalsRebuilt1.12.2-2.1.3/ZAWA1.12.2-2.1.3.cfg"
-hash = "faafbe72b9c6b327abc1c073b24aa85251ad906b93106897d910450fa1a1ea40"
+hash = "d20daa47a09964030a6089d1699bff0d540ff6c54c0591373ca8b35854e3fca5"
 
 [[files]]
 file = "config/abyssalcraft.cfg"
@@ -9374,7 +8846,7 @@ hash = "423a0cfaba2fafbe01394d586f95f847f4705108412caeb100d7e3b6971bb12c"
 
 [[files]]
 file = "config/astralsorcery.cfg"
-hash = "f7bf5e53fe9b4f70cf879879cea0a7d6e79eb9986bb1f70fb78d858e9d13bddb"
+hash = "e60f2644a7086dbbdc252a54eea76e97c90e8fe9befe392b71d09ae667f2f50f"
 
 [[files]]
 file = "config/astralsorcery/aevitas_ore_perk.cfg"
@@ -9458,7 +8930,7 @@ hash = "c1ae1175048cffbadb749be9bb138bbb5623fce16102995a1fa03a7a0c31a1c0"
 
 [[files]]
 file = "config/biomeinfo.cfg"
-hash = "53fa658de8c70f6ff7aff982835ffca0171074b4ed39e7a1274cc32ea12a9eed"
+hash = "de7ef901aeec46b7501d8a923c29bf1b48c49d43c5945b6b2f6542159ff35694"
 
 [[files]]
 file = "config/biomesoplenty/biome_ids.json"
@@ -9934,7 +9406,7 @@ hash = "2b0c43661420094e5c85bbd30473d21c91ac1cb3b603b818a5d0575ba647e4c9"
 
 [[files]]
 file = "config/cfm.cfg"
-hash = "dc348a8564cc6b1d2de345e2d8c272af08ed817f4b86d07938d3811fda6d3dac"
+hash = "9aa50b3cb9d7c0335f9e67900ccc1b5fd529b564dfcbdc7cd8d485f21d5c8224"
 
 [[files]]
 file = "config/chisel.cfg"
@@ -10094,7 +9566,7 @@ hash = "0ed5eb28617337385549751871415ba51ccd42e5b437a419b9f253a265285832"
 
 [[files]]
 file = "config/forestry/common.cfg"
-hash = "91a9e152b2a4b295454bd31fb2248d6ed2324dec89e93a03852348ea9c94051a"
+hash = "c36fffbafc7d767c07727c065baf14f1d21cd604510bf6ebb2bc1a6cac192ed6"
 
 [[files]]
 file = "config/forestry/crates.cfg"
@@ -10330,7 +9802,7 @@ hash = "dee582f1983ff9d5b7f4e021669bdfd5bc2ed764f2da4b7c840af18f640668c8"
 
 [[files]]
 file = "config/ice_and_fire.cfg"
-hash = "496c6da4dc43fa9539396f51472223d0bb014bc6b44357573ae8886a3b6041ef"
+hash = "afca29c32a8823af918d76d8dd7738d082a8c7ea2c4c5eb46262bb25e9bef95c"
 
 [[files]]
 file = "config/ichunutil.cfg"
@@ -10466,7 +9938,7 @@ hash = "7a16ae499982fd34f09ca28fe29f0570842f99149eed06150aa3cec4744fbed3"
 
 [[files]]
 file = "config/mysticalworld.cfg"
-hash = "c9b63e3f488036774ff986a83ea570cf37bb8e0c5dc2e53ef36c25edec3c6cee"
+hash = "55ead312c6438088cd7ae387efe08d49bb30fa5c017007579706913a6a527bcb"
 
 [[files]]
 file = "config/natura.cfg"
@@ -10482,7 +9954,7 @@ hash = "6fb555da1078fa1989ae7a121e98b32695021c2f648af02ad5bc72cb26beb833"
 
 [[files]]
 file = "config/openblocks.cfg"
-hash = "ba5f116f9be6c40aa327b59eabba9765c8f3a5e1e4c91e79b3e4184640fae474"
+hash = "98d5c70d68888ac0b47aa3e3c063a3ed3a632ca43870b9498e49f6c43a009880"
 
 [[files]]
 file = "config/openmods.cfg"
@@ -10634,7 +10106,7 @@ hash = "b716388ce1514fdb76749312c7c82649413e85b0364c584d68e88574c5afd27d"
 
 [[files]]
 file = "config/tconstruct.cfg"
-hash = "b25295006846c2e58b8f24b1d6a5bb0ca6c22bf2e926a592ead0911e402a8c83"
+hash = "ec83317b9e5d49fe6e761a60b7942ae7b78623d8de1fe9a3984c4f28c8239070"
 
 [[files]]
 file = "config/tfc/animal_food_data.json"
@@ -10757,6 +10229,11 @@ metafile = true
 [[files]]
 file = "mods/aether-ii.pw.toml"
 hash = "102c01cea08040653b16f7a08778def199ef4e2abbed42304df4aab15c758bf5"
+metafile = true
+
+[[files]]
+file = "mods/akashic-tome.pw.toml"
+hash = "965be564aa6d4f69905817140576e58a42a69b2e6ffc881c800b8d8f790c77bb"
 metafile = true
 
 [[files]]
@@ -10945,6 +10422,11 @@ hash = "81e9ed65d60fafa4764e382c91e268fd100ca2c89d073e9165f3549f7e14dfdc"
 metafile = true
 
 [[files]]
+file = "mods/crafttweaker.pw.toml"
+hash = "6ec9b026ab9601c6e3e1aad6468cf6bc4f0735b55bcb23bbc4e2b7a3eaf8b4a3"
+metafile = true
+
+[[files]]
 file = "mods/crimson-revelations.pw.toml"
 hash = "4b08aba2296e4b57b5638d4ee4f79fc71efe81a4462cf290ee0abbad2535be6d"
 metafile = true
@@ -11120,11 +10602,6 @@ hash = "6d9ef3b58ebe74992ac20ad96df05595b85c0b6a4b7a25988ab1394fd5500a91"
 metafile = true
 
 [[files]]
-file = "mods/heartdrops.pw.toml"
-hash = "ba2aae9f43ee8664ac1ee1d7d383cc236f147321076dcbc30263156887e6e90e"
-metafile = true
-
-[[files]]
 file = "mods/hwyla.pw.toml"
 hash = "b4be6b4fba0775b5c95774e7090a4f16eab36d55669326588b8549c38d3c0dd4"
 metafile = true
@@ -11137,6 +10614,11 @@ metafile = true
 [[files]]
 file = "mods/ichunutil.pw.toml"
 hash = "e84b408fe657d70ce1292d146ebfa510843327453d245d5694de3a434ad482bd"
+metafile = true
+
+[[files]]
+file = "mods/initial-inventory.pw.toml"
+hash = "60331cee154213030ad24e7df7d3d642e27620875d75628d619c164c302626ac"
 metafile = true
 
 [[files]]
@@ -11287,6 +10769,11 @@ metafile = true
 [[files]]
 file = "mods/mrcrayfish-furniture-mod.pw.toml"
 hash = "b4815a6bd24ab674c6acdeb36d4e6e368edd22755451cab27faa3f9a81344ab9"
+metafile = true
+
+[[files]]
+file = "mods/mtlib.pw.toml"
+hash = "89814f8f8f56b7cb826bb9606298f0985bbfb6ae4059964b801ccecfc3ede1ef"
 metafile = true
 
 [[files]]
@@ -11525,11 +11012,6 @@ hash = "f4b59868dc507385e25109ff5559f35ca19f866d585c581c7458bd0619cc1e7b"
 metafile = true
 
 [[files]]
-file = "mods/thaumisc.pw.toml"
-hash = "5b5721c883f8870f3b7bff18de45c1ff54f4617f175b2b43af573ff22312e7ee"
-metafile = true
-
-[[files]]
 file = "mods/the-twilight-forest.pw.toml"
 hash = "4c651f7861470858bcfe8ecfc2706dada1e5251c4619722d3bb22d3662b43536"
 metafile = true
@@ -11588,6 +11070,10 @@ metafile = true
 file = "mods/zoo-wild-animals-rebuild.pw.toml"
 hash = "7b3744e34d528d8e9d18a9ded76eae987f815adbccdf109a88e52fd9c6b695c0"
 metafile = true
+
+[[files]]
+file = "options.txt"
+hash = "e67ae8ae54e1426a5421777afa79e723b8e5431032bd10e8c16bd2919beec717"
 
 [[files]]
 file = "resources/assets/fml/textures/gui/e2o.gif"
@@ -24816,3 +24302,7 @@ hash = "773b1500c4095bbe1ecc8a9729876f835c6248da43b68feaafc3662dcdc0df13"
 [[files]]
 file = "resources/vulcanite/textures/blocks/nether_vulcanite_ore.png"
 hash = "a6fd684f2b1fc1b93e5fd819068bf337067bdb8ea67cf0dce447f36e6a2bcff1"
+
+[[files]]
+file = "scripts/00_akashic_tome.zs"
+hash = "4550dc1326652b09946031fc98f97928a6bc28e1e98261844d5e57235d260ad4"
