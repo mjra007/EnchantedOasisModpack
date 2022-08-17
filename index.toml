@@ -3,7 +3,7 @@ hash-format = "sha256"
 [[files]]
 file = ".modnamesoverride"
 hash = "8db2350090841ac3404736f021bccf0872d03a7da780a9e449c90712c606e807"
- 
+
 [[files]]
 file = "animation/1.jpg"
 hash = "4dd81c9f57e8615761a4c8273794133042b45f5999fb32239da87192670a7d70"
@@ -10509,6 +10509,11 @@ metafile = true
 [[files]]
 file = "mods/entity-culling.pw.toml"
 hash = "55c0c208311e294f09a1e02bedf3c92f925b4f4554731f027aa47c21705fc61f"
+metafile = true
+
+[[files]]
+file = "mods/entity-desync-fix.pw.toml"
+hash = "24f22f9142170c817da5cce3e506abe878d8035f8a3305d572053247b99ef331"
 metafile = true
 
 [[files]]
