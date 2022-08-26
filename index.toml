@@ -10582,6 +10582,11 @@ hash = "58b489de3bbfca18e801535f53902eac605b04a451343ef2161140a283dc631d"
 metafile = true
 
 [[files]]
+file = "mods/grimoire-api.pw.toml"
+hash = "2118d12a6c735bd90d06896615d10bbcc6ab183eff0bac17ceb608f75cf16198"
+metafile = true
+
+[[files]]
 file = "mods/grimoire-of-gaia.pw.toml"
 hash = "1adfc1e5a13d86d54b5ab404015abd64f66787ef1b59ae68bbd2fdefd631ea12"
 metafile = true
