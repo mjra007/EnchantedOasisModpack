@@ -10517,6 +10517,11 @@ hash = "24f22f9142170c817da5cce3e506abe878d8035f8a3305d572053247b99ef331"
 metafile = true
 
 [[files]]
+file = "mods/eo-mixins.pw.toml"
+hash = "9e715423d4c91b896cad407ae9ece16647c18b5ac89863b89ab3bc2a8512725c"
+metafile = true
+
+[[files]]
 file = "mods/evilcraft.pw.toml"
 hash = "e1aac13064a9450ca19ed7ae8bd6b905af7e952466c773b76ca655ddce462334"
 metafile = true
@@ -10747,11 +10752,6 @@ hash = "834ec9a12ca793298289e6666e51bc286b51611413ff996d0199ce2aab29aa32"
 metafile = true
 
 [[files]]
-file = "mods/metamorph.pw.toml"
-hash = "0db921ae01779f187a8ff14fbeb1c6e8e7e351cc39b65a8b692bd3366e40a161"
-metafile = true
-
-[[files]]
 file = "mods/mixin-booter.pw.toml"
 hash = "3be6b5e358209824169142396908a1ecc579a1761a9ad280a9560aa2819bf90f"
 metafile = true
@@ -10764,6 +10764,11 @@ metafile = true
 [[files]]
 file = "mods/mo-creatures.pw.toml"
 hash = "18845720368ae5ea20600e3e12063001b3a519ae9a96d8d57380dbd76942924b"
+metafile = true
+
+[[files]]
+file = "mods/morph.pw.toml"
+hash = "56fcb2f8c2e2fbd8bb776704756103f6f900143b3a0f5bf57f6219f5dba6dd6e"
 metafile = true
 
 [[files]]
@@ -10809,11 +10814,6 @@ metafile = true
 [[files]]
 file = "mods/natures-aura.pw.toml"
 hash = "804c3b34d10707deef06238eb3a013cb86970b9667cbfb43109ff10cf362f6dc"
-metafile = true
-
-[[files]]
-file = "mods/nothirium.pw.toml"
-hash = "4d70283d8a6bcb7902826fbe3dcb9c1dc1bbf0db197cb1a91cabf20ba4d0693b"
 metafile = true
 
 [[files]]
@@ -11059,6 +11059,11 @@ metafile = true
 [[files]]
 file = "mods/yabba.pw.toml"
 hash = "48c21200dcd1a303e8728b70a05a5c21150e13e98c269508c4ce3c070a09f582"
+metafile = true
+
+[[files]]
+file = "mods/yarcf.pw.toml"
+hash = "729d0fb37a03b6244aad48f06c0048c7f4bc569592bc0bde256908e06a52a737"
 metafile = true
 
 [[files]]

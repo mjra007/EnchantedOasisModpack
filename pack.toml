@@ -1,12 +1,12 @@
 name = "EnchantedOasis"
 author = "mjra007"
-version = "3.0.9-1.12.2"
+version = "3.0.10-1.12.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "7c3e8eeb0a1438adbcf9ff97f3884df146ddb7bad5cece1572ef67392eea405a"
+hash = "a21f0d9b4f44f09b6b0692206d98c1108e7babe243da3385c1dc86fecfe95225"
 
 [versions]
 forge = "14.23.5.2860"
