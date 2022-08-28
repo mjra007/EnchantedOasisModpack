@@ -1,13 +1,13 @@
 name = "EO Mixins"
-filename = "eomixins-1.0.4.jar"
+filename = "eomixins-1.0.5.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "b8fa4286e3847e5d9bdc767047519fd3dab094bc"
+hash = "cc1917d467f8b74e7a981679c971cff2f07a2858"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3954174
+file-id = 3955483
 project-id = 663186

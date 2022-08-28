@@ -1,35 +1,1649 @@
 {
   "crops": [
-    {
-      "initialBlock": {
-        "blockName": "minecraft:wheat",
-        "meta": 7
-      }
-    },
-    {
-      "initialBlock": {
-        "blockName": "minecraft:carrots",
-        "meta": 7
-      }
-    },
-    {
-      "initialBlock": {
-        "blockName": "minecraft:potatoes",
-        "meta": 7
-      }
-    },
-    {
-      "initialBlock": {
-        "blockName": "minecraft:beetroots",
-        "meta": 3
-      }
-    },
-    {
-      "initialBlock": {
-        "blockName": "minecraft:nether_wart",
-        "meta": 3
-      }
+{
+    "initialBlock": {
+      "blockName": "minecraft:wheat",
+      "meta": 7
     }
+  },
+  {
+    "initialBlock": {
+      "blockName": "minecraft:carrots",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "minecraft:potatoes",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "minecraft:beetroots",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "extratrees:hops",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:void_crop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/aer",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/terra",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/ignis",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/aqua",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/ordo",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/perditio",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/vacuos",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/lux",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/motus",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/gelum",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/vitreus",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/metallum",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/victus",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/mortuus",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/potentia",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/permutatio",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/praecantatio",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/auram",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/alkimia",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/vitium",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/tenebrae",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/alienis",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/volatus",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/herba",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/instrumentum",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/fabrico",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/machina",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/vinculum",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/spiritus",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/cognitio",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/sensus",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/aversio",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/praemunio",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/desiderium",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/exanimis",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/bestia",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/humanus",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/coralos",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/dreadia",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/chronos",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/anteanus",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/priscus",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/fluctus",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/sonus",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/exitium",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/caeles",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/draco",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/infernum",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/ventus",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/visum",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumadditions:vis_crop/imperium",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "witchery:belladonna_seeds",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "witchery:mandrake_seeds",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "witchery:artichoke_seeds",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "witchery:snowbell_seeds",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "witchery:wormwood_seeds",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "witchery:wolfsbane_seeds",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "witchery:garlic",
+      "meta": 5
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "witchery:mindrake_bulb",
+      "meta": 4
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "forbidden_arcanus:golden_orchid",
+      "meta": 2
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "growthcraft_rice:ricecrop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "growthcraft_milk:thistle",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:tier1_inferium_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:tier2_inferium_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:tier3_inferium_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:tier4_inferium_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:tier5_inferium_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:stone_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:dirt_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:nature_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:wood_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:water_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:ice_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:fire_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:dye_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:nether_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:coal_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:iron_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:nether_quartz_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:glowstone_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:redstone_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:obsidian_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:gold_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:lapis_lazuli_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:end_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:experience_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:diamond_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:emerald_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:zombie_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:pig_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:chicken_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:cow_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:sheep_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:slime_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:skeleton_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:creeper_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:spider_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:rabbit_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:guardian_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:blaze_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:ghast_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:enderman_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:wither_skeleton_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:silicon_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:sulfur_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:aluminum_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:copper_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:saltpeter_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:tin_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:bronze_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:brass_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:silver_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:lead_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:titanium_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:ruby_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:sapphire_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:peridot_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:amber_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:topaz_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:malachite_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:tanzanite_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:aluminum_brass_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:knightslime_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:ardite_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:cobalt_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:manyullyn_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:mystical_flower_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:manasteel_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:elementium_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:terrasteel_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:quicksilver_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:thaumium_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:void_metal_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:dawnstone_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:marble_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:limestone_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:basalt_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:apatite_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:steeleaf_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:ironwood_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:knightmetal_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:fiery_ingot_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:meteoric_iron_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:desh_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:coralium_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:abyssalnite_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:dreadium_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:aquamarine_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:starmetal_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:rock_crystal_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:dark_gem_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:ender_amethyst_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:sky_stone_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:certus_quartz_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalagriculture:fluix_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumicwonders:shimmerleaf_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumicwonders:cinderpearl_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "thaumicwonders:vishroom_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "brewcraft:pamhopscrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamblackberrycrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamblueberrycrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamcandleberrycrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamraspberrycrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamstrawberrycrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamcactusfruitcrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamasparaguscrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pambarleycrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamoatscrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamryecrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamcorncrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pambambooshootcrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamcantaloupecrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamcucumbercrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamwintersquashcrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamzucchinicrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pambeetcrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamonioncrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamparsnipcrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pampeanutcrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamradishcrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamrutabagacrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamsweetpotatocrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamturnipcrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamrhubarbcrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamcelerycrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamgarliccrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamgingercrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamspiceleafcrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamtealeafcrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamcoffeebeancrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pammustardseedscrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pambroccolicrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamcauliflowercrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamleekcrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamlettucecrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamscallioncrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamartichokecrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pambrusselsproutcrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamcabbagecrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamspinachcrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamwhitemushroomcrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pambeancrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamsoybeancrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pambellpeppercrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamchilipeppercrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pameggplantcrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamokracrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pampeascrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamtomatocrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamcottoncrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pampineapplecrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamgrapecrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamkiwicrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamcranberrycrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamricecrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamseaweedcrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamcurryleafcrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamsesameseedscrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamwaterchestnutcrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamgigapicklecrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamkalecrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamagavecrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamamaranthcrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamarrowrootcrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamcassavacrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamchickpeacrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamelderberrycrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamflaxcrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamgreengrapecrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamhuckleberrycrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamjicamacrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamjutecrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamkenafcrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamkohlrabicrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamlentilcrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pammilletcrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pammulberrycrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamquinoacrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamsisalcrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamtarocrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamtomatillocrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "harvestcraft:pamjuniperberrycrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "weeeflowers:pamblackcrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "weeeflowers:pambluecrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "weeeflowers:pambrowncrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "weeeflowers:pamcyancrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "weeeflowers:pamdarkgraycrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "weeeflowers:pamgreencrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "weeeflowers:pamlightbluecrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "weeeflowers:pamlightgraycrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "weeeflowers:pamlimecrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "weeeflowers:pammagentacrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "weeeflowers:pamorangecrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "weeeflowers:pampinkcrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "weeeflowers:pampurplecrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "weeeflowers:pamredcrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "weeeflowers:pamwhitecrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "weeeflowers:pamyellowcrop",
+      "meta": 3
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "mysticalworld:aubergine_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "roots:moonglow_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "roots:pereskia_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "roots:wildroot_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "roots:spirit_herb_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "roots:wildewheet_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "roots:cloud_berry_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "roots:infernal_bulb_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "roots:dewgonia_crop",
+      "meta": 7
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "roots:stalicripe_crop",
+      "meta": 7
+    }
+  }
   ],
   "exhaustionPerHarvest": 0.005,
   "additionalLogging": false,
