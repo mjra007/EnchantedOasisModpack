@@ -10237,6 +10237,11 @@ hash = "965be564aa6d4f69905817140576e58a42a69b2e6ffc881c800b8d8f790c77bb"
 metafile = true
 
 [[files]]
+file = "mods/appleskin.pw.toml"
+hash = "ffbb4bb97f53e5d6f005887b6297acf4274bed2e8e88625fc2d1e61a416afb26"
+metafile = true
+
+[[files]]
 file = "mods/applied-energistics-2.pw.toml"
 hash = "33c9cc942090a69b10a4d2e5b72a9584747bc2ff7922a81be0df3f8c2f9df50c"
 metafile = true
@@ -10884,6 +10889,11 @@ metafile = true
 [[files]]
 file = "mods/placebo.pw.toml"
 hash = "28b25a8fd5e36d44ea6e469b95bdad32e166ea1d44766ed382ab8db4a4e9bbc0"
+metafile = true
+
+[[files]]
+file = "mods/plusticminusbad.pw.toml"
+hash = "11bd5348b38df958e1ee9394827a48d8501be5da545f4c7c9a1f487784039765"
 metafile = true
 
 [[files]]
