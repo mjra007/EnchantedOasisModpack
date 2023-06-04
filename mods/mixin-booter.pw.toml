@@ -1,10 +1,10 @@
 name = "MixinBooter"
-filename = "!mixinbooter-5.0.jar"
+filename = "!mixinbooter-8.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "cacbf51a371348f8b9f834c27e15edab06b28c72"
+hash = "476bf3907528488c0b7a9ba872c3615eee8a5db3"
 mode = "metadata:curseforge"
 
 [update]

@@ -1,13 +1,13 @@
 name = "Entity Culling"
-filename = "EntityCulling-1.12.2-6.2.3.jar"
+filename = "EntityCulling-1.12.2-6.3.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "8d2abe1bcfb3fbde0c5c3e11b0c23237c11e1c8e"
+hash = "2a2afa6e271bb927bc737d10747547a69e31a3a8"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3954054
+file-id = 4433037
 project-id = 409087
