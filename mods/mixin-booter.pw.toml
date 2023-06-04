@@ -1,5 +1,5 @@
 name = "MixinBooter"
-filename = "!mixinbooter-8.2.jar"
+filename = "!mixinbooter-5.0.jar"
 side = "both"
 
 [download]
